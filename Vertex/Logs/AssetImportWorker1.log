@@ -1,0 +1,2412 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.35f1 (011206c7a712) revision 70150'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ru' Physical Memory: 16085 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.35f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+E:/Unity/Vertex
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+56095
+Successfully changed project path to: E:/Unity/Vertex
+E:/Unity/Vertex
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [19464] Host "[IP] 192.168.0.10 [Port] 0 [Flags] 2 [Guid] 1163374517 [EditorId] 1163374517 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-ODEJMH3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [19464] Host "[IP] 192.168.0.10 [Port] 0 [Flags] 2 [Guid] 1163374517 [EditorId] 1163374517 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-ODEJMH3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+Refreshing native plugins compatible for Editor in 8.51 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.35f1 (011206c7a712)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.35f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Unity/Vertex/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Laptop GPU (ID=0x25a2)
+    Vendor:   NVIDIA
+    VRAM:     3965 MB
+    Driver:   32.0.15.5599
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.35f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.35f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.35f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56692
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.35f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.35f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.010040 seconds.
+- Loaded All Assemblies, in  0.380 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 1226 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.583 seconds
+Domain Reload Profiling: 1962ms
+	BeginReloadAssembly (116ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (64ms)
+	LoadAllAssembliesAndSetupDomain (150ms)
+		LoadAssemblies (114ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (147ms)
+			TypeCache.Refresh (146ms)
+				TypeCache.ScanAssembly (132ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (1583ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1520ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1342ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (123ms)
+			ProcessInitializeOnLoadMethodAttributes (49ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.749 seconds
+Refreshing native plugins compatible for Editor in 3.24 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.825 seconds
+Domain Reload Profiling: 1572ms
+	BeginReloadAssembly (150ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (499ms)
+		LoadAssemblies (344ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (239ms)
+			TypeCache.Refresh (197ms)
+				TypeCache.ScanAssembly (175ms)
+			ScanForSourceGeneratedMonoScriptInfo (29ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (826ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (622ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (27ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (85ms)
+			ProcessInitializeOnLoadAttributes (405ms)
+			ProcessInitializeOnLoadMethodAttributes (93ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 3.07 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5635 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 107 unused Assets / (1.3 MB). Loaded Objects now: 6079.
+Memory consumption went from 209.3 MB to 207.9 MB.
+Total: 4.737500 ms (FindLiveObjects: 0.553300 ms CreateObjectMapping: 0.174800 ms MarkObjects: 3.273000 ms  DeleteObjects: 0.734800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 107367.456259 seconds.
+  path: Assets/UniversalRenderPipelineGlobalSettings.asset
+  artifactKey: Guid(93b439a37f63240aca3dd4e01d978a9f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UniversalRenderPipelineGlobalSettings.asset using Guid(93b439a37f63240aca3dd4e01d978a9f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f736b4ca6ea0e89f75b103d742844347') in 0.210806 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TileMap/Room_Builder32x32_115.asset
+  artifactKey: Guid(36ce35ae84b154341b93fcf5d19e67a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Room_Builder32x32_115.asset using Guid(36ce35ae84b154341b93fcf5d19e67a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '33bf7498d31726722f95587d7e5182f0') in 0.026481 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/TileMap/Room_Builder32x32_104.asset
+  artifactKey: Guid(ac9c522708ccac8468c073511682527e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Room_Builder32x32_104.asset using Guid(ac9c522708ccac8468c073511682527e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7d35e21b08cfcc5bfaffd5b518d7ecd4') in 0.013489 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/TileMap/pixilart-sprite (7)_1.asset
+  artifactKey: Guid(b7dcd65ca9f9c834bb7792af14f22ce5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/pixilart-sprite (7)_1.asset using Guid(b7dcd65ca9f9c834bb7792af14f22ce5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4da80307b9d6e9a56e007e5daec0150d') in 0.012685 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprite/pixilart-sprite (8).png
+  artifactKey: Guid(030a2ad78b41fba4f8717436e6fa58b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprite/pixilart-sprite (8).png using Guid(030a2ad78b41fba4f8717436e6fa58b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '500f7d1ff033a905f6ea236dc8366db5') in 0.087738 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Scenes/Game.unity
+  artifactKey: Guid(af1f2ffb9086eb44f9f53bf9ce825402) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Game.unity using Guid(af1f2ffb9086eb44f9f53bf9ce825402) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '16d41f32098d94a146bc80ba96eb9af5') in 0.011589 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/TileMap/Room_Builder32x32_110.asset
+  artifactKey: Guid(9b1c6abc4f89f7e41bde194008282755) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Room_Builder32x32_110.asset using Guid(9b1c6abc4f89f7e41bde194008282755) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '53ea1207f925930e57c52391d29a9aea') in 0.013251 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/TileMap/Room_Builder32x32_149.asset
+  artifactKey: Guid(fceb236ef3b17ec4e9690836511a5362) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Room_Builder32x32_149.asset using Guid(fceb236ef3b17ec4e9690836511a5362) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd1ea3fdb18cc4f5fc9bc777dd03977d7') in 0.013008 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/TileMap/Room_Builder32x32_129.asset
+  artifactKey: Guid(65a87562c1edcae44987f347a0046f75) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Room_Builder32x32_129.asset using Guid(65a87562c1edcae44987f347a0046f75) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '83056ec0fc4382b2aec808927d8662a8') in 0.013627 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/TileMap/Room_Builder32x32_105.asset
+  artifactKey: Guid(7d2d5bc37559667468c07fba1f471abb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Room_Builder32x32_105.asset using Guid(7d2d5bc37559667468c07fba1f471abb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '43f12b8f0b1a5b35e2b6e0e9cbef24cc') in 0.012970 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/TileMap/pixilart-sprite (7)_7.asset
+  artifactKey: Guid(0bcfbd8de2f8b654da1dd5c23b7dc757) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/pixilart-sprite (7)_7.asset using Guid(0bcfbd8de2f8b654da1dd5c23b7dc757) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c0a178afe592ae868fbcb67f51eb8ccd') in 0.012160 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TileMap/Room_Builder32x32_146.asset
+  artifactKey: Guid(2ea917c7256d00144b04e35ff183df2b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Room_Builder32x32_146.asset using Guid(2ea917c7256d00144b04e35ff183df2b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '864ff8c43424f0b16cff79a57ea833ea') in 0.016777 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TileMap/Room_Builder32x32_158.asset
+  artifactKey: Guid(0d555a53588985e45af623777eaaae7c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Room_Builder32x32_158.asset using Guid(0d555a53588985e45af623777eaaae7c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a73248fd751fb9c7332c182e36bb9238') in 0.014382 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/TileMap/Room_Builder32x32_160.asset
+  artifactKey: Guid(545075c1fff92e44f81d933eb06757bf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Room_Builder32x32_160.asset using Guid(545075c1fff92e44f81d933eb06757bf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'aed88cf7ebbb1c034aebba7eda1cfe7f') in 0.014448 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TileMap/Room_Builder32x32_128.asset
+  artifactKey: Guid(24da266f6db0ac94e94461c464370e27) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Room_Builder32x32_128.asset using Guid(24da266f6db0ac94e94461c464370e27) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '28fdf336270bcadfd8e1b61df30f5d4b') in 0.014802 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TileMap/Room_Builder32x32_154.asset
+  artifactKey: Guid(8beb54b16150c8e45a0f6b6f40d2447d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Room_Builder32x32_154.asset using Guid(8beb54b16150c8e45a0f6b6f40d2447d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5424e5a1c48d8c78f3aacb21a4085469') in 0.013931 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Animator/RunUp.anim
+  artifactKey: Guid(6e5bb6646caacb247b0cbec398dbbc4a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Animator/RunUp.anim using Guid(6e5bb6646caacb247b0cbec398dbbc4a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3c8900e4a8e35a2521913ac960b385c8') in 0.017044 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Animator/idl.anim
+  artifactKey: Guid(fa8ae40361bd32c4f934b6638d81dc05) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Animator/idl.anim using Guid(fa8ae40361bd32c4f934b6638d81dc05) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '0a9571bdd4ae9c1fb5b2a1ae593231a4') in 0.014880 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprite/Tileset_32x32_3.png
+  artifactKey: Guid(8043628fe8607b44e8459ffa862c57fe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprite/Tileset_32x32_3.png using Guid(8043628fe8607b44e8459ffa862c57fe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8db2b0916374370c54316c0ffea2630d') in 0.170685 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 88
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TileMap/Room_Builder32x32_153.asset
+  artifactKey: Guid(461ffc877cda07c4b8c8bf4c4781f138) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Room_Builder32x32_153.asset using Guid(461ffc877cda07c4b8c8bf4c4781f138) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b01b367c783f772effd1c9003a5c618b') in 0.013144 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/TileMap/Room_Builder32x32_172.asset
+  artifactKey: Guid(6906ed5583cdfbc419cfb23ce8700890) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Room_Builder32x32_172.asset using Guid(6906ed5583cdfbc419cfb23ce8700890) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'daf050b4b2763c28fe5dfa7410730789') in 0.012442 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Scenes/End.unity
+  artifactKey: Guid(e0e0a8dc14fd12243b779d65647e468c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/End.unity using Guid(e0e0a8dc14fd12243b779d65647e468c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'db347cc84d434f69acf3169312172486') in 0.010122 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TileMap/Room_Builder32x32_16.asset
+  artifactKey: Guid(0298d75ab57339c47b3132013081cb6f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Room_Builder32x32_16.asset using Guid(0298d75ab57339c47b3132013081cb6f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '18d92a0d5bd24916d016b6094ad56609') in 0.013055 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TileMap/Room_Builder32x32_133.asset
+  artifactKey: Guid(4bdb4003b6dd4b44bb01a4491b83df4d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Room_Builder32x32_133.asset using Guid(4bdb4003b6dd4b44bb01a4491b83df4d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '094efb9d50e8fb112cfe51ab7a732075') in 0.013323 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TileMap/Room_Builder32x32_140.asset
+  artifactKey: Guid(d6c3358cbaed4fc4ca391e33c46f0dc0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Room_Builder32x32_140.asset using Guid(d6c3358cbaed4fc4ca391e33c46f0dc0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'deda1b0ebcac42af0d64022f1b57ecbc') in 0.012539 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TileMap/Room_Builder32x32_167.asset
+  artifactKey: Guid(199354811c536dd47ad657af356b1942) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Room_Builder32x32_167.asset using Guid(199354811c536dd47ad657af356b1942) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '80f9166ed56c0d99bf01f53a73bf6cb9') in 0.013314 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TileMap/Room_Builder32x32_143.asset
+  artifactKey: Guid(8a09d8c637497ac44aba4c1adc253c9a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Room_Builder32x32_143.asset using Guid(8a09d8c637497ac44aba4c1adc253c9a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c7b9762990a611fe6eddb8c17ecf2899') in 0.012073 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TileMap/Room_Builder32x32_106.asset
+  artifactKey: Guid(238b965a4cfa5a14f976106e650f2027) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Room_Builder32x32_106.asset using Guid(238b965a4cfa5a14f976106e650f2027) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '6200b4c3d085265604f2caf59644fcbb') in 0.015132 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TileMap/Room_Builder32x32_144.asset
+  artifactKey: Guid(d2bdaec4b8c8b194b9add219373ebdd4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Room_Builder32x32_144.asset using Guid(d2bdaec4b8c8b194b9add219373ebdd4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'cc07d4ed9f268e34e808ad79f2c21633') in 0.012345 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TileMap/Room_Builder32x32_189.asset
+  artifactKey: Guid(165b876536a8d434abd22aeb291cda28) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Room_Builder32x32_189.asset using Guid(165b876536a8d434abd22aeb291cda28) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '72957b05187e944960df0cfbfaedd891') in 0.012563 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TileMap/Room_Builder32x32_192.asset
+  artifactKey: Guid(652ed0d1bf797014d9a3126c643215ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Room_Builder32x32_192.asset using Guid(652ed0d1bf797014d9a3126c643215ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd08e455e5ac10a3405087f3d61dcedcf') in 0.013491 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/TileMap/Room_Builder32x32_196.asset
+  artifactKey: Guid(2d2870cd279eeb7459c9790a0d143909) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Room_Builder32x32_196.asset using Guid(2d2870cd279eeb7459c9790a0d143909) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ea1749acf18ed2f104cf9dd485a75599') in 0.013611 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/TileMap/Room_Builder32x32_193.asset
+  artifactKey: Guid(ffff7b4cd480f1b42ae778876a4a70e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Room_Builder32x32_193.asset using Guid(ffff7b4cd480f1b42ae778876a4a70e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b0c4c64c18673e2e140bf85807eadc87') in 0.013246 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/TileMap/Room_Builder32x32_190.asset
+  artifactKey: Guid(fedf6152b2e71004dba5326f3d69ccae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Room_Builder32x32_190.asset using Guid(fedf6152b2e71004dba5326f3d69ccae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '31eb5391e62fb90d5ca623533d815863') in 0.012358 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TileMap/Room_Builder32x32_184.asset
+  artifactKey: Guid(721285e8a0d9ef94b92e845461e021b8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Room_Builder32x32_184.asset using Guid(721285e8a0d9ef94b92e845461e021b8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '454d78d53b3cf0e6afc1d813e2c0d59c') in 0.014810 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TileMap/Room_Builder32x32_187.asset
+  artifactKey: Guid(dac66c2fc83f12041a9e2d38c45afdf0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Room_Builder32x32_187.asset using Guid(dac66c2fc83f12041a9e2d38c45afdf0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '019e103330f4eea7bd5d5b20b69f4db7') in 0.013686 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TileMap/Room_Builder32x32_130.asset
+  artifactKey: Guid(752e53fbdfd689f4392a390dd2fac976) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Room_Builder32x32_130.asset using Guid(752e53fbdfd689f4392a390dd2fac976) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd38514dafa9a27b4887dbe0695807a17') in 0.014663 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TileMap/pixilart-sprite (7)_2.asset
+  artifactKey: Guid(77dba0d93e503b34ba7e918521dcdc78) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/pixilart-sprite (7)_2.asset using Guid(77dba0d93e503b34ba7e918521dcdc78) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2a4ad7ed7bb22883f61ba023e478daaa') in 0.013218 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/TileMap/Room_Builder32x32_142.asset
+  artifactKey: Guid(682ba864a577c5240bb78d1f15f7808a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Room_Builder32x32_142.asset using Guid(682ba864a577c5240bb78d1f15f7808a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'cfba2e29c055ab0106daa23e16934596') in 0.013145 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TileMap/Room_Builder32x32_198.asset
+  artifactKey: Guid(017d689466ebf9445825001ee0ccf7ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Room_Builder32x32_198.asset using Guid(017d689466ebf9445825001ee0ccf7ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '933d1bc2721df079beac04969b4eee49') in 0.015213 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TileMap/Room_Builder32x32_120.asset
+  artifactKey: Guid(916107ac24076164d9fc7a52688ad1f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Room_Builder32x32_120.asset using Guid(916107ac24076164d9fc7a52688ad1f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ab4c55e38956483abf326806d668f570') in 0.014120 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TileMap/Room_Builder32x32_139.asset
+  artifactKey: Guid(ebcc78973c1005948b93a86ad03aa066) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Room_Builder32x32_139.asset using Guid(ebcc78973c1005948b93a86ad03aa066) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '307e35cca281a60c13646a92813a1713') in 0.015213 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/TileMap/Room_Builder32x32_163.asset
+  artifactKey: Guid(78852eb98fc882e47ac32581cbf42e94) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Room_Builder32x32_163.asset using Guid(78852eb98fc882e47ac32581cbf42e94) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '057da6602de82815b70796adecfa4b0a') in 0.016636 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/TileMap/Room_Builder32x32_171.asset
+  artifactKey: Guid(a7930541c692e61429063e2dbd53ded6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Room_Builder32x32_171.asset using Guid(a7930541c692e61429063e2dbd53ded6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4e63571dc05d740d0efca530966565fb') in 0.014630 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/TileMap/Room_Builder32x32_162.asset
+  artifactKey: Guid(ab0e91f255f7ee8418cdb7d5e1497ff9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Room_Builder32x32_162.asset using Guid(ab0e91f255f7ee8418cdb7d5e1497ff9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '21734194f1bfe36c82465cba5dd921fc') in 0.013662 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TileMap/Room_Builder32x32_180.asset
+  artifactKey: Guid(c8d83858615a9f948ac3c74e099d596b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Room_Builder32x32_180.asset using Guid(c8d83858615a9f948ac3c74e099d596b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b9450902aedf5fc6389361afc90804e9') in 0.013725 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/TileMap/Room_Builder32x32_157.asset
+  artifactKey: Guid(85f246e902dec824cb9c248ad24e6728) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Room_Builder32x32_157.asset using Guid(85f246e902dec824cb9c248ad24e6728) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1bed74a0b6d60882aff44cd490553b20') in 0.013510 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TileMap/pixilart-sprite (7)_8.asset
+  artifactKey: Guid(fa7fa8c213a3a6349bff3a392c7291e5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/pixilart-sprite (7)_8.asset using Guid(fa7fa8c213a3a6349bff3a392c7291e5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a069eb60046c4eac2f54f6ae1172c4e4') in 0.013515 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/TileMap/Room_Builder32x32_125.asset
+  artifactKey: Guid(46a0f64b19e6f2f419a7fb4bafed3522) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Room_Builder32x32_125.asset using Guid(46a0f64b19e6f2f419a7fb4bafed3522) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'cdb8a044fa0bcd873bdc3bf0158de4bd') in 0.013460 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TileMap/Room_Builder32x32_199.asset
+  artifactKey: Guid(8d6977786b0cc6a4b90935ab465dd418) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Room_Builder32x32_199.asset using Guid(8d6977786b0cc6a4b90935ab465dd418) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1e62be202c04688a1180c80b14a9c201') in 0.013251 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TileMap/Room_Builder32x32_169.asset
+  artifactKey: Guid(ad5af7d3d562f1146b9f6dbaea371a40) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Room_Builder32x32_169.asset using Guid(ad5af7d3d562f1146b9f6dbaea371a40) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'cfaf0e205f37f92ded2ba896ba3223d2') in 0.014879 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Animator/Levl0-1.controller
+  artifactKey: Guid(dd0ad37859d276b47bd34754768450d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Animator/Levl0-1.controller using Guid(dd0ad37859d276b47bd34754768450d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c10455ae794fbf580eb188b476043758') in 0.013135 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TileMap/Room_Builder32x32_179.asset
+  artifactKey: Guid(1df50289390af5249b84c56091e687f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Room_Builder32x32_179.asset using Guid(1df50289390af5249b84c56091e687f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '65236752a4ce828242de10ad26c29264') in 0.014044 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/TileMap/Room_Builder32x32_213.asset
+  artifactKey: Guid(e4e92ac96a5136e469413d7d4abd7d61) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Room_Builder32x32_213.asset using Guid(e4e92ac96a5136e469413d7d4abd7d61) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f351b0dc76a95a7434d914c3fa254c43') in 0.014318 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/TileMap/Room_Builder32x32_24.asset
+  artifactKey: Guid(1234357d2e00c314c8ab13d1fce9b7c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Room_Builder32x32_24.asset using Guid(1234357d2e00c314c8ab13d1fce9b7c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5189e0cb74db16e02bca6162779a7792') in 0.013117 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TileMap/Room_Builder32x32_240.asset
+  artifactKey: Guid(0ab29d64bd901d2438a1b4d7af1e7200) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Room_Builder32x32_240.asset using Guid(0ab29d64bd901d2438a1b4d7af1e7200) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '363a2c23ed8b7d5ec603298104146f5c') in 0.014229 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TileMap/Room_Builder32x32_211.asset
+  artifactKey: Guid(5741326178645b642881c29875b6f3e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Room_Builder32x32_211.asset using Guid(5741326178645b642881c29875b6f3e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f6afda5f907187152ba61f4a7c12af06') in 0.014282 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TileMap/Room_Builder32x32_209.asset
+  artifactKey: Guid(d32789c626d5654409d62c505c545e86) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Room_Builder32x32_209.asset using Guid(d32789c626d5654409d62c505c545e86) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4ede9d7d610ce70491aa85d23ccae448') in 0.013146 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/TileMap/Room_Builder32x32_22.asset
+  artifactKey: Guid(02d5b24b593a8af4f9c1e0f8d32efc03) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Room_Builder32x32_22.asset using Guid(02d5b24b593a8af4f9c1e0f8d32efc03) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c14c5f0dd76a7035a681981a6e20fe8e') in 0.013354 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TileMap/Room_Builder32x32_202.asset
+  artifactKey: Guid(ece6cbf3d94e596478653b1e38445bee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Room_Builder32x32_202.asset using Guid(ece6cbf3d94e596478653b1e38445bee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a55695b0aa1866368f8f0893c39a3cda') in 0.012659 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TileMap/Room_Builder32x32_208.asset
+  artifactKey: Guid(8ea6ddb8e0043084880c3115316fffb0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Room_Builder32x32_208.asset using Guid(8ea6ddb8e0043084880c3115316fffb0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1cb97a8dcde96271de231fb617a939f6') in 0.013337 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TileMap/Room_Builder32x32_219.asset
+  artifactKey: Guid(1b043f81d023b0e46ad3317039080b25) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Room_Builder32x32_219.asset using Guid(1b043f81d023b0e46ad3317039080b25) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'fc0dedcf29b2cf4b7cb1ecb1d70ba00d') in 0.013540 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TileMap/Room_Builder32x32_23.asset
+  artifactKey: Guid(ebb1329e872685f45a34ea7e0408b9dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Room_Builder32x32_23.asset using Guid(ebb1329e872685f45a34ea7e0408b9dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '07014add134c363d31d020e7c04b3516') in 0.013208 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TileMap/Room_Builder32x32_241.asset
+  artifactKey: Guid(2546306c45894d440824baed0053cf85) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Room_Builder32x32_241.asset using Guid(2546306c45894d440824baed0053cf85) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7ec0df237dafe5617e952fa57456c6db') in 0.013648 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/TileMap/Room_Builder32x32_222.asset
+  artifactKey: Guid(6b28a23dcb584f24fac2dd75ad2c67c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Room_Builder32x32_222.asset using Guid(6b28a23dcb584f24fac2dd75ad2c67c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '20243bda7cf83e4dd283e7d1c53e8473') in 0.012198 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/TileMap/Room_Builder32x32_228.asset
+  artifactKey: Guid(0ac31ab3e5f840e4b917b72e62b8de92) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Room_Builder32x32_228.asset using Guid(0ac31ab3e5f840e4b917b72e62b8de92) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8743a70c1c496a88358f347a0c7ba790') in 0.015414 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000473 seconds.
+  path: Assets/TileMap/Room_Builder32x32_236.asset
+  artifactKey: Guid(1f887e61976ceb84c967693239f2a208) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Room_Builder32x32_236.asset using Guid(1f887e61976ceb84c967693239f2a208) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8ec01e0e64578c72339bbbd21a8d679a') in 0.013151 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TileMap/Room_Builder32x32_237.asset
+  artifactKey: Guid(91dbc9fe89b8794478070b3720dbd2e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Room_Builder32x32_237.asset using Guid(91dbc9fe89b8794478070b3720dbd2e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e1e53ba666dbf20f3b701cf5ff3eea54') in 0.013898 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TileMap/Room_Builder32x32_238.asset
+  artifactKey: Guid(f9b50ed2fbb292f4ca144693e4650ea4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Room_Builder32x32_238.asset using Guid(f9b50ed2fbb292f4ca144693e4650ea4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a868bcc6a26cb2549bdada8aff9146a6') in 0.013824 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/TileMap/Room_Builder32x32_214.asset
+  artifactKey: Guid(9b16ed012636d174bb774cd651df1f4c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Room_Builder32x32_214.asset using Guid(9b16ed012636d174bb774cd651df1f4c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9e54538367ac9635574453923ae44b67') in 0.013004 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TileMap/Room_Builder32x32_210.asset
+  artifactKey: Guid(cf7223d1ffacd6d47a4d48cd0fe8ab4f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Room_Builder32x32_210.asset using Guid(cf7223d1ffacd6d47a4d48cd0fe8ab4f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4eaf0004294731fe8149fef4cdf58c2c') in 0.013365 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TileMap/pixilart-sprite (7)_3.asset
+  artifactKey: Guid(6cd8f939f8c2aa740898b1eeeba0cc5a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/pixilart-sprite (7)_3.asset using Guid(6cd8f939f8c2aa740898b1eeeba0cc5a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a11a21b2bef5355d9a59c51ac68ecd7e') in 0.013099 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TileMap/Room_Builder32x32_18.asset
+  artifactKey: Guid(8e46ed326d95b3f458aad2fbef693abc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Room_Builder32x32_18.asset using Guid(8e46ed326d95b3f458aad2fbef693abc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'dfbde59d144fbd1415570242ba162c4d') in 0.013936 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TileMap/Room_Builder32x32_19.asset
+  artifactKey: Guid(f0945d9b5a3c5784faeb48a9169f735a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Room_Builder32x32_19.asset using Guid(f0945d9b5a3c5784faeb48a9169f735a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '128a9e66a2aa31b4dfc7fc0688db3f06') in 0.014300 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TileMap/Room_Builder32x32_148.asset
+  artifactKey: Guid(2d3de32a36e100142bf215b7982a0aa1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Room_Builder32x32_148.asset using Guid(2d3de32a36e100142bf215b7982a0aa1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c7cee097f3430c6d427dc7b60371ae82') in 0.011764 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TileMap/Room_Builder32x32_102.asset
+  artifactKey: Guid(5d51bfe98cafcc74e8792874ec053c54) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Room_Builder32x32_102.asset using Guid(5d51bfe98cafcc74e8792874ec053c54) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '0ac92d6b8ff6659ca2d467d265757898') in 0.012519 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TileMap/Room_Builder32x32_195.asset
+  artifactKey: Guid(de491809b4b306046a023d3113a272b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Room_Builder32x32_195.asset using Guid(de491809b4b306046a023d3113a272b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ca1c28faa5347ff963128000cbec3bd1') in 0.012678 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/TileMap/Room_Builder32x32_217.asset
+  artifactKey: Guid(dcf4c205636d97149a0c28dfc3d9c2ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Room_Builder32x32_217.asset using Guid(dcf4c205636d97149a0c28dfc3d9c2ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9d492685fdc731eeb7462b78df712539') in 0.014117 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/TileMap/Room_Builder32x32_197.asset
+  artifactKey: Guid(42ff1816d70c55944be889ec86e0026e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Room_Builder32x32_197.asset using Guid(42ff1816d70c55944be889ec86e0026e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7455da386a2f1c7ca619c7551cde2b18') in 0.012706 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TileMap/Room_Builder32x32_63.asset
+  artifactKey: Guid(d4632d8d524e7214bad3798c33aa3aeb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Room_Builder32x32_63.asset using Guid(d4632d8d524e7214bad3798c33aa3aeb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '82fcb74d1795638ea4d9fd36f607c38b') in 0.013482 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TileMap/Room_Builder32x32_5.asset
+  artifactKey: Guid(9322accddf6e4f04fb4b65db3e860366) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Room_Builder32x32_5.asset using Guid(9322accddf6e4f04fb4b65db3e860366) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '37128bde625160ce007451a29f7dcdc9') in 0.013649 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TileMap/Room_Builder32x32_71.asset
+  artifactKey: Guid(7776860b8ffc23e43a72103ae9bb6b36) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Room_Builder32x32_71.asset using Guid(7776860b8ffc23e43a72103ae9bb6b36) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e97bca47c588cf536ea3afa891241e73') in 0.014502 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TileMap/Room_Builder32x32_62.asset
+  artifactKey: Guid(70e23db7d25c36243aec6e2265a36363) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Room_Builder32x32_62.asset using Guid(70e23db7d25c36243aec6e2265a36363) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'df559692067ba761b84c890d03483199') in 0.012679 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TileMap/Room_Builder32x32_79.asset
+  artifactKey: Guid(0e475e1248d32f549bc20821a036d9ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Room_Builder32x32_79.asset using Guid(0e475e1248d32f549bc20821a036d9ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '55a1782a4e1504be4dcd97639ff4b690') in 0.011534 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/TileMap/Room_Builder32x32_76.asset
+  artifactKey: Guid(c3aeee412c735084e870785ddbdfe668) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Room_Builder32x32_76.asset using Guid(c3aeee412c735084e870785ddbdfe668) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '949c3a26efef34691742828512b9db71') in 0.013510 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/TileMap/Room_Builder32x32_48.asset
+  artifactKey: Guid(19a076fbe0a37a34f85b47c409b3ffdd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Room_Builder32x32_48.asset using Guid(19a076fbe0a37a34f85b47c409b3ffdd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4608c3b3b855ba4fa485458911e37ca2') in 0.013173 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TileMap/Room_Builder32x32_55.asset
+  artifactKey: Guid(5631faae9c96e92489dffc180c59e449) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Room_Builder32x32_55.asset using Guid(5631faae9c96e92489dffc180c59e449) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'dc55949f999c546ddf09614762867d54') in 0.014878 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TileMap/Room_Builder32x32_78.asset
+  artifactKey: Guid(7c9e6be3b02b6484781c590c2f816dcc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Room_Builder32x32_78.asset using Guid(7c9e6be3b02b6484781c590c2f816dcc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e4013de04949179416802c48d05b77de') in 0.012817 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/TileMap/Room_Builder32x32_57.asset
+  artifactKey: Guid(5af60fc8f3e9f414eabce63ede42330f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Room_Builder32x32_57.asset using Guid(5af60fc8f3e9f414eabce63ede42330f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '89583d1e260fd60e312d36e67445a5eb') in 0.012754 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TileMap/Room_Builder32x32_75.asset
+  artifactKey: Guid(ac15da7bc31942c47bf8824f2da31768) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Room_Builder32x32_75.asset using Guid(ac15da7bc31942c47bf8824f2da31768) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '04ba24472ca622e8489e3c374564ba43') in 0.014461 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/TileMap/Room_Builder32x32_77.asset
+  artifactKey: Guid(fb747be3f92c67d4dbe5d826e5ad0e22) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Room_Builder32x32_77.asset using Guid(fb747be3f92c67d4dbe5d826e5ad0e22) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f1ea01932a882f87f404bdace48f2883') in 0.013202 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TileMap/Room_Builder32x32_51.asset
+  artifactKey: Guid(e6c8dad3d5bd3d24ab68c91a3bd0ab38) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Room_Builder32x32_51.asset using Guid(e6c8dad3d5bd3d24ab68c91a3bd0ab38) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1b1070ba300d4d12fdc2233deb7b4f12') in 0.013098 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/TileMap/Room_Builder32x32_56.asset
+  artifactKey: Guid(42954a3c1fb60dc4db4729f2059ef13a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Room_Builder32x32_56.asset using Guid(42954a3c1fb60dc4db4729f2059ef13a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '73337cccdb98ff2f96f97b8e32d2a4f7') in 0.012549 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TileMap/Room_Builder32x32_39.asset
+  artifactKey: Guid(45fe0819e6cf11146810eadbd12fd76e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Room_Builder32x32_39.asset using Guid(45fe0819e6cf11146810eadbd12fd76e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5961bdb04afd2b38b3834589976e5d1b') in 0.012842 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TileMap/Room_Builder32x32_32.asset
+  artifactKey: Guid(8f08f8ae69c12d84f98be5de779d9859) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Room_Builder32x32_32.asset using Guid(8f08f8ae69c12d84f98be5de779d9859) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5e407988aad742086702bf557e847f28') in 0.011938 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TileMap/Room_Builder32x32_64.asset
+  artifactKey: Guid(9247cd6c6db54924dab5c8beb0435d18) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Room_Builder32x32_64.asset using Guid(9247cd6c6db54924dab5c8beb0435d18) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9e081a920d7d5ae14ffa3da6189c66e8') in 0.013204 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TileMap/Room_Builder32x32_65.asset
+  artifactKey: Guid(d9205b5eea20c9c4fa530dd146c60d15) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Room_Builder32x32_65.asset using Guid(d9205b5eea20c9c4fa530dd146c60d15) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e09e6a49dcd49cf5c298a096dd610f39') in 0.015050 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/TileMap/Room_Builder32x32_4.asset
+  artifactKey: Guid(08497ec21790ad14484fc26ea68e35fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Room_Builder32x32_4.asset using Guid(08497ec21790ad14484fc26ea68e35fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '6a96e92d078c067cbcfced60ca0d5654') in 0.015094 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TileMap/Room_Builder32x32_68.asset
+  artifactKey: Guid(1a494b749f0473343ba0825181b81681) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Room_Builder32x32_68.asset using Guid(1a494b749f0473343ba0825181b81681) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c354dc9f7ee9c675f5683444ace99118') in 0.011149 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TileMap/Room_Builder32x32_31.asset
+  artifactKey: Guid(3df1bc9fbf9c36748b100a63c69ebcee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Room_Builder32x32_31.asset using Guid(3df1bc9fbf9c36748b100a63c69ebcee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '6bffee53877d6665635d63611a375c4b') in 0.013181 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TileMap/Room_Builder32x32_234.asset
+  artifactKey: Guid(9d5ef94724beca143b32455bcbcd5009) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Room_Builder32x32_234.asset using Guid(9d5ef94724beca143b32455bcbcd5009) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '91613ebce686a4ced2f19d1907cbca63') in 0.012767 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprite/pixil-frame-0 (1).png
+  artifactKey: Guid(55857aa3c29cf614892ed786ea0ab3a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprite/pixil-frame-0 (1).png using Guid(55857aa3c29cf614892ed786ea0ab3a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4be1d1f8bd39530929edec9182030bc0') in 0.018422 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/TileMap/Room_Builder32x32_103.asset
+  artifactKey: Guid(2a7a5a2b3f301e04db6ad9db93495a4b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Room_Builder32x32_103.asset using Guid(2a7a5a2b3f301e04db6ad9db93495a4b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '06b7958050f9cf49f303130500f85fcb') in 0.015204 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TileMap/Tileset_32x32_16_108.asset
+  artifactKey: Guid(bebfe112c6aea7748b69390395371f10) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Tileset_32x32_16_108.asset using Guid(bebfe112c6aea7748b69390395371f10) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '49adf065f4da3071d67d84ef449318b0') in 0.013896 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TileMap/Tileset_32x32_16_116.asset
+  artifactKey: Guid(c66decf6263636941b969fcb9fc932ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Tileset_32x32_16_116.asset using Guid(c66decf6263636941b969fcb9fc932ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f7d7d4e2f5f30e31589995c59c4ba6ac') in 0.012810 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TileMap/Tileset_32x32_16_114.asset
+  artifactKey: Guid(86108ed98c5646e4289f7794bf56e2bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Tileset_32x32_16_114.asset using Guid(86108ed98c5646e4289f7794bf56e2bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5e7bc56a16ee8166fdba242fe3b7bdc1') in 0.012301 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TileMap/Tileset_32x32_16_12.asset
+  artifactKey: Guid(713c82aa70916f845b02beb5d7ad134a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Tileset_32x32_16_12.asset using Guid(713c82aa70916f845b02beb5d7ad134a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '75babd82e9f962c00c816c26d9a505f5') in 0.011506 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TileMap/Tileset_32x32_16_119.asset
+  artifactKey: Guid(5e8c90cbbcc180843880e0f152e379a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Tileset_32x32_16_119.asset using Guid(5e8c90cbbcc180843880e0f152e379a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f269ae9c34ff7635b5ab0229fd8a6fd6') in 0.012765 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TileMap/Tileset_32x32_16_105.asset
+  artifactKey: Guid(3c9da26ff83e4f94ca89f80cc1de3572) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Tileset_32x32_16_105.asset using Guid(3c9da26ff83e4f94ca89f80cc1de3572) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'cab9228218f12a235b2a44f82653905e') in 0.012504 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/TileMap/Tileset1_32x32_3_34.asset
+  artifactKey: Guid(c3229e5b7e566a843b392cfbece5c31b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Tileset1_32x32_3_34.asset using Guid(c3229e5b7e566a843b392cfbece5c31b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '61d516f7495258e1258c2d77af622fb8') in 0.012492 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/TileMap/Tileset_32x32_16_120.asset
+  artifactKey: Guid(56a59c45a9f5e794596daf752baacbbd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Tileset_32x32_16_120.asset using Guid(56a59c45a9f5e794596daf752baacbbd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1179cd540fc7b2298d2a01a77641a4b1') in 0.015185 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/TileMap/Tileset1_32x32_3_37.asset
+  artifactKey: Guid(6ea290accf705b04093c7cd18e2dbeea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Tileset1_32x32_3_37.asset using Guid(6ea290accf705b04093c7cd18e2dbeea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '74c7a8c7ed27ac31c37da50d5abe5325') in 0.012799 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TileMap/Tileset_32x32_16_10.asset
+  artifactKey: Guid(a6c2bc4f273b0734eae2144feae5d7a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Tileset_32x32_16_10.asset using Guid(a6c2bc4f273b0734eae2144feae5d7a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7a07f1ffd36642ebbae6b7e320c41cbb') in 0.012165 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TileMap/Tileset_32x32_16_110.asset
+  artifactKey: Guid(947312dd00a326441bcee3644e0e68b6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Tileset_32x32_16_110.asset using Guid(947312dd00a326441bcee3644e0e68b6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '408115f23649148f46c1115bf2472b79') in 0.013203 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/TileMap/Tileset_32x32_16_109.asset
+  artifactKey: Guid(513428a9a87195048b2626b248a1be21) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Tileset_32x32_16_109.asset using Guid(513428a9a87195048b2626b248a1be21) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '70fed909953fe061dcdc3c33e500e156') in 0.012879 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TileMap/Tileset_32x32_16_112.asset
+  artifactKey: Guid(6607a22976c914e47b8f33d6fb2e2d77) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Tileset_32x32_16_112.asset using Guid(6607a22976c914e47b8f33d6fb2e2d77) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '42154e1f535d49416bdcfd0251433319') in 0.012541 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/TileMap/Tileset_32x32_16_104.asset
+  artifactKey: Guid(d6b2b9ce262889642bd2bc4e1efea73d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Tileset_32x32_16_104.asset using Guid(d6b2b9ce262889642bd2bc4e1efea73d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'bb7d04283e920dd52b8e66ade70bdc34') in 0.014280 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TileMap/Tileset_32x32_16_121.asset
+  artifactKey: Guid(27c5420c2285f744f94a84fb8585b4f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Tileset_32x32_16_121.asset using Guid(27c5420c2285f744f94a84fb8585b4f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '96712ab32566d25b5602976dc69f746e') in 0.013440 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/TileMap/Room_Builder32x32_96.asset
+  artifactKey: Guid(c2d16f1025296dd42b3c955e45fff46f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Room_Builder32x32_96.asset using Guid(c2d16f1025296dd42b3c955e45fff46f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c11aa3e6ae825bd152081f5dcd65bb78') in 0.014888 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TileMap/Room_Builder32x32_82.asset
+  artifactKey: Guid(9d8f6d9d0fc223547a448a5c1b8a4edc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Room_Builder32x32_82.asset using Guid(9d8f6d9d0fc223547a448a5c1b8a4edc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '04c26f823ac939133e4c7ea2d3c5558b') in 0.014163 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TileMap/Tileset_32x32_16_101.asset
+  artifactKey: Guid(0075c6f965e47684f8946b2a1912b86c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Tileset_32x32_16_101.asset using Guid(0075c6f965e47684f8946b2a1912b86c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3450d75de4842697af16ee110060b69a') in 0.013927 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/TileMap/Room_Builder32x32_90.asset
+  artifactKey: Guid(a244393405122fb458ca74965e4b47bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Room_Builder32x32_90.asset using Guid(a244393405122fb458ca74965e4b47bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '74d3235e881742b0b69c4d238f45d4c5') in 0.012978 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TileMap/Room_Builder32x32_89.asset
+  artifactKey: Guid(92eb888ecb054e245adbb10b2915b2e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Room_Builder32x32_89.asset using Guid(92eb888ecb054e245adbb10b2915b2e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd1a0c6c77b3fec38c8ed7bbdcd1a8d11') in 0.013155 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TileMap/Tileset_32x32_16_115.asset
+  artifactKey: Guid(79e068a38e97e5347940e560a02e62d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Tileset_32x32_16_115.asset using Guid(79e068a38e97e5347940e560a02e62d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b61fa20afcf9370691c2ed6b79a4b8d4') in 0.012400 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/TileMap/Tileset_32x32_16_117.asset
+  artifactKey: Guid(8b3bfe4925c9e8544956d6595d6342ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Tileset_32x32_16_117.asset using Guid(8b3bfe4925c9e8544956d6595d6342ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b09c522dba43417af0dc6e336fd5ab8f') in 0.012696 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/TileMap/Room_Builder32x32_94.asset
+  artifactKey: Guid(7d51f22f47ed490478aa28b33139ce55) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Room_Builder32x32_94.asset using Guid(7d51f22f47ed490478aa28b33139ce55) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '89bd5594d0cf4675c8a7a0edb52d5789') in 0.013769 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/TileMap/Room_Builder32x32_85.asset
+  artifactKey: Guid(cac730c9a9995e142b2c95044a3d983d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Room_Builder32x32_85.asset using Guid(cac730c9a9995e142b2c95044a3d983d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '0d26ba24af7dcfa06f52436467fdadac') in 0.013827 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TileMap/Room_Builder32x32_93.asset
+  artifactKey: Guid(e9bad17d497aeca47b93c9156a691dc1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Room_Builder32x32_93.asset using Guid(e9bad17d497aeca47b93c9156a691dc1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '171458fd95a5d3ca1fca1f957e75e45a') in 0.012637 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprite/pixil-frame-0 (3).png
+  artifactKey: Guid(a7b90db775d553e4c8a909366269e359) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprite/pixil-frame-0 (3).png using Guid(a7b90db775d553e4c8a909366269e359) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4ff73ae11bb4a6e6bbc0b0a6653267ce') in 0.018431 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/TileMap/Tileset_32x32_16_17.asset
+  artifactKey: Guid(c45744dd10543fd4ba83d3233e7e142b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Tileset_32x32_16_17.asset using Guid(c45744dd10543fd4ba83d3233e7e142b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '76625b1ed965de532f6de8cd85de3fb3') in 0.013728 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TileMap/Tileset_32x32_16_124.asset
+  artifactKey: Guid(7f5688d6ba6c4d1469dca617425d37e5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Tileset_32x32_16_124.asset using Guid(7f5688d6ba6c4d1469dca617425d37e5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'dffd970fddd32db600e301eb79c9d715') in 0.014399 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/TileMap/Tileset_32x32_16_22.asset
+  artifactKey: Guid(58d1530c3ca24f94392879bbbb2e5090) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Tileset_32x32_16_22.asset using Guid(58d1530c3ca24f94392879bbbb2e5090) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '661afd5f9764bf0a9c25baaa12a6103c') in 0.013243 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/TileMap/Tileset_32x32_16_19.asset
+  artifactKey: Guid(5d1ffd83e3e723542be40d26f58dc26a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Tileset_32x32_16_19.asset using Guid(5d1ffd83e3e723542be40d26f58dc26a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '40b2d0f0c470bf35a461e7d17d39d709') in 0.012555 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TileMap/Tileset_32x32_16_2.asset
+  artifactKey: Guid(0f9e50de77168c04f8e292006ca396e5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Tileset_32x32_16_2.asset using Guid(0f9e50de77168c04f8e292006ca396e5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f129ac8bc2dfdcb0e0d187a9ec41d088') in 0.014657 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TileMap/Tileset_32x32_16_130.asset
+  artifactKey: Guid(d79b1b84d246f4448b609b7f95b5e2f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Tileset_32x32_16_130.asset using Guid(d79b1b84d246f4448b609b7f95b5e2f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'dd28d9418717b1aaa0df768bdfb10bcd') in 0.013906 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TileMap/Tileset_32x32_16_28.asset
+  artifactKey: Guid(44e5be81f2a832243b36cd655f5a6c91) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Tileset_32x32_16_28.asset using Guid(44e5be81f2a832243b36cd655f5a6c91) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '895334573f163222224f6f3495e9c0a5') in 0.012563 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/TileMap/Tileset_32x32_16_41.asset
+  artifactKey: Guid(23ad1ac66a74dfb40a8aefa865e1ec05) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Tileset_32x32_16_41.asset using Guid(23ad1ac66a74dfb40a8aefa865e1ec05) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5701cd627cf4946badc079d845b13879') in 0.014506 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/TileMap/Tileset_32x32_16_23.asset
+  artifactKey: Guid(16b2c93de87de6840aac179d076bdb62) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Tileset_32x32_16_23.asset using Guid(16b2c93de87de6840aac179d076bdb62) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c7674abdb748eff543567c392cfd7dc4') in 0.012757 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TileMap/Tileset_32x32_16_127.asset
+  artifactKey: Guid(72038441f8f193d43b9f3862e14e5fed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Tileset_32x32_16_127.asset using Guid(72038441f8f193d43b9f3862e14e5fed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a8fc97e32e72c162fbfc8494f3972d4a') in 0.014075 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TileMap/Tileset_32x32_16_14.asset
+  artifactKey: Guid(cb29d9d1bfcba494ba4c2dbcefe308ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Tileset_32x32_16_14.asset using Guid(cb29d9d1bfcba494ba4c2dbcefe308ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '83d7347479b99898a3d9a5f2fc60d088') in 0.015094 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/TileMap/Tileset_32x32_16_134.asset
+  artifactKey: Guid(09765a5049993e94e8588674d0f8ab63) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Tileset_32x32_16_134.asset using Guid(09765a5049993e94e8588674d0f8ab63) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '999c21e9fcb8db5737e0691e16d9b09a') in 0.015199 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/TileMap/Tileset_32x32_16_133.asset
+  artifactKey: Guid(b7978d0b224c89e4fba258a4e381a878) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Tileset_32x32_16_133.asset using Guid(b7978d0b224c89e4fba258a4e381a878) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '44bbb9840dd917914067312c25665fb2') in 0.017417 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/TileMap/Tileset_32x32_16_37.asset
+  artifactKey: Guid(c724afcdbe254cc4da7fe345b916ae9d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Tileset_32x32_16_37.asset using Guid(c724afcdbe254cc4da7fe345b916ae9d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '915b5cee1f7d54602b314c6fa86eec18') in 0.013811 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/TileMap/Tileset_32x32_16_123.asset
+  artifactKey: Guid(23e3d2b8bedec37408d75b2a726b2803) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Tileset_32x32_16_123.asset using Guid(23e3d2b8bedec37408d75b2a726b2803) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '11ba9a7396a9291288579512fa40c924') in 0.012562 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TileMap/Tileset_32x32_16_42.asset
+  artifactKey: Guid(eb3bd77d6f559414698da0e482bc5bd5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Tileset_32x32_16_42.asset using Guid(eb3bd77d6f559414698da0e482bc5bd5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '0ccf0a0a1bf392b7b11ce27485cedbfd') in 0.013019 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TileMap/Tileset_32x32_16_34.asset
+  artifactKey: Guid(ffbdf932493c8fd458f37ebc3fee2dba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Tileset_32x32_16_34.asset using Guid(ffbdf932493c8fd458f37ebc3fee2dba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3c03bc8b38e78118e389b4a9e08428fc') in 0.013576 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/TileMap/Tileset_32x32_16_38.asset
+  artifactKey: Guid(5b773bc3e95bf984c8aac5a6a5f9f9b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Tileset_32x32_16_38.asset using Guid(5b773bc3e95bf984c8aac5a6a5f9f9b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b85abdd60cd45b6af054da060544efd1') in 0.014242 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/TileMap/Tileset_32x32_16_39.asset
+  artifactKey: Guid(055a2e490a451c8468f07d7f09f609ce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Tileset_32x32_16_39.asset using Guid(055a2e490a451c8468f07d7f09f609ce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '628a2308ae9941567082f6d8dfca40f3') in 0.013899 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/TileMap/Tileset_32x32_16_139.asset
+  artifactKey: Guid(6dc42910c7eac1142a96b98a908ec447) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Tileset_32x32_16_139.asset using Guid(6dc42910c7eac1142a96b98a908ec447) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a11b606f4337f0eb61a13dfe883db43d') in 0.013539 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000740 seconds.
+  path: Assets/TileMap/Tileset_32x32_16_135.asset
+  artifactKey: Guid(00d65472e278a09479bfb923f56271c9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Tileset_32x32_16_135.asset using Guid(00d65472e278a09479bfb923f56271c9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'bf4a1d6d61ad75b3b7390fc997b38625') in 0.012339 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TileMap/Tileset_32x32_16_21.asset
+  artifactKey: Guid(0405f45fba72dce48922015cf817b71c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Tileset_32x32_16_21.asset using Guid(0405f45fba72dce48922015cf817b71c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '302e972fd14e03310cb93e714c617104') in 0.014878 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TileMap/Tileset_32x32_16_25.asset
+  artifactKey: Guid(80b6b1fb3ae15864f816f8b2106dd567) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Tileset_32x32_16_25.asset using Guid(80b6b1fb3ae15864f816f8b2106dd567) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'bc784a79cdc1efc8ca066fcbca850539') in 0.013069 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TileMap/Tileset_32x32_16_126.asset
+  artifactKey: Guid(ddeffb12aa72d0b48af0fb80926b0bc6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Tileset_32x32_16_126.asset using Guid(ddeffb12aa72d0b48af0fb80926b0bc6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '25bdf18cdd7002a7c4a42d9af84e8122') in 0.013180 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TileMap/Tileset_32x32_16_3.asset
+  artifactKey: Guid(89cfe05efaf8b0d419b48067eaf872a7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Tileset_32x32_16_3.asset using Guid(89cfe05efaf8b0d419b48067eaf872a7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5bda88173bf4ffcb5db1abc0b334dd01') in 0.012453 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TileMap/Room_Builder32x32_166.asset
+  artifactKey: Guid(519ce418d7d9fae4a9f16f92656d3cdd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Room_Builder32x32_166.asset using Guid(519ce418d7d9fae4a9f16f92656d3cdd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '109382307c2494e35bd25afdde4e8c49') in 0.012685 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TileMap/Tileset_32x32_16_52.asset
+  artifactKey: Guid(f92e91b3d20389d4f86eafbdbe459980) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Tileset_32x32_16_52.asset using Guid(f92e91b3d20389d4f86eafbdbe459980) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'be8d7c56f39d6f4bcf18ce044b9ab803') in 0.013523 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TileMap/Room_Builder32x32_33.asset
+  artifactKey: Guid(8f97a243a3070794d801c7a5856ecf00) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Room_Builder32x32_33.asset using Guid(8f97a243a3070794d801c7a5856ecf00) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9067cfa4338702e99bc6aed480678584') in 0.011517 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TileMap/Tileset_32x32_16_70.asset
+  artifactKey: Guid(7f54218719aebf34b8190f95f01682aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Tileset_32x32_16_70.asset using Guid(7f54218719aebf34b8190f95f01682aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4724acfa2e498d3896af521134fba848') in 0.011898 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/TileMap/Tileset_32x32_16_7.asset
+  artifactKey: Guid(dc873832373f444499c0b88e18be9170) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Tileset_32x32_16_7.asset using Guid(dc873832373f444499c0b88e18be9170) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '10aba315b9053ecda414ef77e6d7d42c') in 0.016473 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/TileMap/Tileset_32x32_16_85.asset
+  artifactKey: Guid(727e631427ca4f1498eb5f3bd892fde1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Tileset_32x32_16_85.asset using Guid(727e631427ca4f1498eb5f3bd892fde1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd89f0a152a8d4d1187e04630a56a5eda') in 0.016171 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/TileMap/Tileset_32x32_16_74.asset
+  artifactKey: Guid(9c07797fe5f57a64aa20769a4d04052b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Tileset_32x32_16_74.asset using Guid(9c07797fe5f57a64aa20769a4d04052b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '25f2757794604d92fd29d3dc11cc2848') in 0.018777 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/TileMap/Tileset_32x32_16_68.asset
+  artifactKey: Guid(b63fa856bcd9f80449cc79843e461061) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Tileset_32x32_16_68.asset using Guid(b63fa856bcd9f80449cc79843e461061) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a2c0a02562c01be5e41e839c066e810b') in 0.012568 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TileMap/Tileset_32x32_16_46.asset
+  artifactKey: Guid(448f869f6873e5f47987e845da1a1bbb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Tileset_32x32_16_46.asset using Guid(448f869f6873e5f47987e845da1a1bbb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '89208387e27efe4f81979266941167b7') in 0.012773 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TileMap/Tileset_32x32_16_61.asset
+  artifactKey: Guid(457b3fd005c49b3478c94a07c522b015) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Tileset_32x32_16_61.asset using Guid(457b3fd005c49b3478c94a07c522b015) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ab5e3e641b42fefbecb16d10c69fba26') in 0.012195 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TileMap/Tileset_32x32_16_54.asset
+  artifactKey: Guid(fcb78996f4acee24c97625754fb0fa5f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Tileset_32x32_16_54.asset using Guid(fcb78996f4acee24c97625754fb0fa5f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '49a2303370c69b5375c0979a0d3b1d86') in 0.012849 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TileMap/Tileset_32x32_16_78.asset
+  artifactKey: Guid(952fb9d7b3e06924a8d6ee28346eb958) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Tileset_32x32_16_78.asset using Guid(952fb9d7b3e06924a8d6ee28346eb958) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f6795083ff42b06792f0ec8f02c57b03') in 0.012640 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TileMap/Tileset_32x32_16_60.asset
+  artifactKey: Guid(dda730ac201c6774faf31a2e22aa2954) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Tileset_32x32_16_60.asset using Guid(dda730ac201c6774faf31a2e22aa2954) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '115d441acc937266e984862e3ceb6403') in 0.012134 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TileMap/Tileset_32x32_16_67.asset
+  artifactKey: Guid(f00eb8b04b12f68488f141858600e752) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Tileset_32x32_16_67.asset using Guid(f00eb8b04b12f68488f141858600e752) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '068f4cdde9eac9c0eb327b6b879014dd') in 0.013018 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TileMap/Tileset_32x32_16_81.asset
+  artifactKey: Guid(c27de03956e03a549868c07789f9fbdc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Tileset_32x32_16_81.asset using Guid(c27de03956e03a549868c07789f9fbdc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'bbc916a27e14b7f4ea20e4521ce7b906') in 0.012727 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TileMap/Tileset_32x32_16_75.asset
+  artifactKey: Guid(42ede3d1ff0d7eb4f9f5c40bd1f74402) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Tileset_32x32_16_75.asset using Guid(42ede3d1ff0d7eb4f9f5c40bd1f74402) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '45852654ff9c3f2193b5ba20993338fc') in 0.013739 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TileMap/Tileset_32x32_16_47.asset
+  artifactKey: Guid(8ca9d8c9859198040803206a257ab859) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Tileset_32x32_16_47.asset using Guid(8ca9d8c9859198040803206a257ab859) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '0056cbfda339ae11ade0a8bf623ac855') in 0.012800 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/TileMap/Tileset_32x32_16_80.asset
+  artifactKey: Guid(90bcdc2d1cb41f545a51bca2eef49435) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Tileset_32x32_16_80.asset using Guid(90bcdc2d1cb41f545a51bca2eef49435) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2288085f238e23f284ccdd8ec7ab1408') in 0.013876 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/TileMap/Tileset_32x32_16_71.asset
+  artifactKey: Guid(607252e4cd911f9448babf66b9046ce1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Tileset_32x32_16_71.asset using Guid(607252e4cd911f9448babf66b9046ce1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'fe488d8d650684554d077d8057b30224') in 0.013707 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TileMap/Tileset_32x32_16_62.asset
+  artifactKey: Guid(395a91a0898464a4bafbfdeb32eed983) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Tileset_32x32_16_62.asset using Guid(395a91a0898464a4bafbfdeb32eed983) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '18116cec7b21d0ad366008a2604394ec') in 0.013058 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TileMap/Tileset_32x32_16_79.asset
+  artifactKey: Guid(779e352daf9d16042ae5608d23d08e6a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Tileset_32x32_16_79.asset using Guid(779e352daf9d16042ae5608d23d08e6a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1c20281b45ad15c1cf683d35d6d5b5ea') in 0.014667 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/TileMap/Tileset_32x32_16_57.asset
+  artifactKey: Guid(25c24896c84c7fa489cca686175a2ba3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Tileset_32x32_16_57.asset using Guid(25c24896c84c7fa489cca686175a2ba3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7cd5d2e449dd2e28d318c269142f0fba') in 0.013672 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TileMap/Tileset_32x32_16_87.asset
+  artifactKey: Guid(552d70dd67b483742827ce0aaa820bbb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Tileset_32x32_16_87.asset using Guid(552d70dd67b483742827ce0aaa820bbb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e9b01e9a17da1de9a83a9cbbfc7abbae') in 0.013250 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TileMap/Tileset_32x32_16_44.asset
+  artifactKey: Guid(0bf7905a6e20753439eb12e72d2db478) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Tileset_32x32_16_44.asset using Guid(0bf7905a6e20753439eb12e72d2db478) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'fb9d5cb923ccf28a25b9e2c2e9e8776a') in 0.013484 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TileMap/Tileset_32x32_16_48.asset
+  artifactKey: Guid(bc830f3e70aa9cc478f1d01778038c27) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Tileset_32x32_16_48.asset using Guid(bc830f3e70aa9cc478f1d01778038c27) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'bde6759128e0a982ed8b001b2d169b7b') in 0.012720 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Scripts/MiniGame1/RandomRotate.cs
+  artifactKey: Guid(27ef1ac0e977c094facb55380499ab7a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/MiniGame1/RandomRotate.cs using Guid(27ef1ac0e977c094facb55380499ab7a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3e29a92e6be0cab24d5efe32e6a43327') in 0.013038 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TileMap/Tileset_32x32_16_98.asset
+  artifactKey: Guid(594330bf1b0152149866dc574a3279c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Tileset_32x32_16_98.asset using Guid(594330bf1b0152149866dc574a3279c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a42a18b60b7e6bd552e1094302de8865') in 0.015803 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Scripts/MiniGame2/BoxTeleport.cs
+  artifactKey: Guid(80fd32368c5800a4698ce6c497eefbf4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/MiniGame2/BoxTeleport.cs using Guid(80fd32368c5800a4698ce6c497eefbf4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8f40416779a24aec967db860fb98d76f') in 0.011459 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000678 seconds.
+  path: Assets/TileMap/Tileset_32x32_3_26.asset
+  artifactKey: Guid(ab5c9945ef4387443800cacdc71c3020) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Tileset_32x32_3_26.asset using Guid(ab5c9945ef4387443800cacdc71c3020) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2e7653fb792095ac5dcd79391f9c20ab') in 0.020886 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TileMap/Tileset_32x32_3_44.asset
+  artifactKey: Guid(dbc101dbb395b0f429ad416864a9744d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Tileset_32x32_3_44.asset using Guid(dbc101dbb395b0f429ad416864a9744d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '6137156a5e9fbd6aeaf6c3b1ac2484f1') in 0.012143 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/TileMap/Tileset_32x32_3_37.asset
+  artifactKey: Guid(905fba530ad07a24db3b89142e348294) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Tileset_32x32_3_37.asset using Guid(905fba530ad07a24db3b89142e348294) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f711675121a9a04bc09814f50a545180') in 0.013020 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/TileMap/Tileset_32x32_3_34.asset
+  artifactKey: Guid(46ea4a03a336c0a4384e1b06b9cbc4a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Tileset_32x32_3_34.asset using Guid(46ea4a03a336c0a4384e1b06b9cbc4a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c3c31276873e1d349b1bc59bffa5e28e') in 0.012340 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TileMap/Tileset_32x32_16_88.asset
+  artifactKey: Guid(d5009c9a7f26fd34e9288caaa164dd1c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Tileset_32x32_16_88.asset using Guid(d5009c9a7f26fd34e9288caaa164dd1c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c7afef7859b53527555d945618863274') in 0.011619 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/TileMap/Tileset_32x32_3_36.asset
+  artifactKey: Guid(d8d4f7b61ae7e024dba9c1f8c6a03848) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Tileset_32x32_3_36.asset using Guid(d8d4f7b61ae7e024dba9c1f8c6a03848) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f842a4cfbb78fef9e09c4955956dadaf') in 0.015174 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TileMap/Tileset_32x32_3_25.asset
+  artifactKey: Guid(836121d1bef4bd6409754b405bacb401) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Tileset_32x32_3_25.asset using Guid(836121d1bef4bd6409754b405bacb401) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '6707df9835bf19aeefd392bab4324856') in 0.012946 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprite/Materials/pixil-frame-0 (3).mat
+  artifactKey: Guid(ef151965df5f4474fa9645ec4db418ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprite/Materials/pixil-frame-0 (3).mat using Guid(ef151965df5f4474fa9645ec4db418ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '6ec51ec954149557dda23257cd921006') in 0.031557 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/TileMap/Tileset_32x32_3_42.asset
+  artifactKey: Guid(9b9ba7927fcf2d34a99d23918b9aa56f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Tileset_32x32_3_42.asset using Guid(9b9ba7927fcf2d34a99d23918b9aa56f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '529b941d1bc1c4c518cece913bbefc30') in 0.014430 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/TileMap/Tileset_32x32_3_41.asset
+  artifactKey: Guid(603180c5a95e4f64890ab5d081770d48) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Tileset_32x32_3_41.asset using Guid(603180c5a95e4f64890ab5d081770d48) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3cf8fa79633f74649d5bceb730067f91') in 0.013046 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Scripts/MiniGame2/GameStart.cs
+  artifactKey: Guid(ab19f7eb65106a34a8887573a95a63f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/MiniGame2/GameStart.cs using Guid(ab19f7eb65106a34a8887573a95a63f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '17622fbbf9d00d96fa7f5200cd9fb174') in 0.011219 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Scripts/MiniGame1/PuzzleManager.cs
+  artifactKey: Guid(56c28423dd217ca48a94ec1fa51b1620) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/MiniGame1/PuzzleManager.cs using Guid(56c28423dd217ca48a94ec1fa51b1620) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '531256a2016e1cb648adfead57cfb775') in 0.011656 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/TileMap/Tileset_32x32_16_91.asset
+  artifactKey: Guid(039a298612672b744b1c014e5307e43a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Tileset_32x32_16_91.asset using Guid(039a298612672b744b1c014e5307e43a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2766257b2f8c6024638f7c7ebab5de82') in 0.015285 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/TileMap/Tileset_32x32_3_16.asset
+  artifactKey: Guid(d7c245b0af7bf494db0121143b235324) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Tileset_32x32_3_16.asset using Guid(d7c245b0af7bf494db0121143b235324) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ce31970d03dfa3e6e4bcda16102ab938') in 0.013240 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TileMap/Tileset_32x32_16_96.asset
+  artifactKey: Guid(376694801e3b57948806c3e9f5fd3f74) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Tileset_32x32_16_96.asset using Guid(376694801e3b57948806c3e9f5fd3f74) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '0640885f3c9b90533e1347c7cf0f699a') in 0.012810 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TileMap/Tileset_32x32_3_7.asset
+  artifactKey: Guid(d663589e1973f22409a088ce9bc92c07) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Tileset_32x32_3_7.asset using Guid(d663589e1973f22409a088ce9bc92c07) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4f1761e33244dcf677925fe2755d0eed') in 0.012675 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprite/Mini-game/pixilart-sprite (6).png
+  artifactKey: Guid(a69f82b5e0367b14da3811c3b102ce09) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprite/Mini-game/pixilart-sprite (6).png using Guid(a69f82b5e0367b14da3811c3b102ce09) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a8a7013975cac2c1073c6d1a27b801a0') in 0.026787 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TileMap/Tileset_32x32_16_95.asset
+  artifactKey: Guid(f3027014f3c498447827dc4b2147cfd8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Tileset_32x32_16_95.asset using Guid(f3027014f3c498447827dc4b2147cfd8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'eb725c607428ea5b8da81395d4fc799e') in 0.016195 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TileMap/Tileset_32x32_3_5.asset
+  artifactKey: Guid(f7fb60970879a954eb0c95cebfa12343) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Tileset_32x32_3_5.asset using Guid(f7fb60970879a954eb0c95cebfa12343) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'cce73ca45ef9156aee9d70ae8701abdd') in 0.013799 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprite/Player/Bob_run_16x16.png
+  artifactKey: Guid(d15f731484e1c664a8d86966e807b4a8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprite/Player/Bob_run_16x16.png using Guid(d15f731484e1c664a8d86966e807b4a8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5a611871615c736a99f20419dea4a110') in 0.054609 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/TileMap/Room_Builder32x32_60.asset
+  artifactKey: Guid(2a04f3bc730e1c3438462c19d09d3d53) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Room_Builder32x32_60.asset using Guid(2a04f3bc730e1c3438462c19d09d3d53) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '54687b2d6056059dd9cec6bd33ce3bb2') in 0.013205 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sprite/pixil-frame-0 (2).png
+  artifactKey: Guid(83d8bc6a1bcb0944baf93eb8c6d3bb6c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprite/pixil-frame-0 (2).png using Guid(83d8bc6a1bcb0944baf93eb8c6d3bb6c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '500efa8ed5e8799da33123b56420d581') in 0.021388 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Animator/PincodClose.anim
+  artifactKey: Guid(de03c320e1635af4e8d18f9729c7d4bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Animator/PincodClose.anim using Guid(de03c320e1635af4e8d18f9729c7d4bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '875a3f3a859091e783fdec8797e6a17a') in 0.011217 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TileMap/Room_Builder32x32_121.asset
+  artifactKey: Guid(b08cf3ee1c5e3e84b9fd850181156b48) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Room_Builder32x32_121.asset using Guid(b08cf3ee1c5e3e84b9fd850181156b48) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7bbc631b878fa1b8078f7efb43fc3918') in 0.011805 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Animator/PincodOpean.anim
+  artifactKey: Guid(8003720871e3ce145b6317eb97731291) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Animator/PincodOpean.anim using Guid(8003720871e3ce145b6317eb97731291) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2de6b2095d1112f2b59eecefef9ed382') in 0.011209 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TileMap/Room_Builder32x32_137.asset
+  artifactKey: Guid(8fc87566143035b4d8be08a30f4b630e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Room_Builder32x32_137.asset using Guid(8fc87566143035b4d8be08a30f4b630e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1c856441e8a975515600acd58b2c5957') in 0.011961 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000486 seconds.
+  path: Assets/TileMap/Room_Builder32x32_161.asset
+  artifactKey: Guid(4bfbff77c0707e1438b858bb11622a76) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Room_Builder32x32_161.asset using Guid(4bfbff77c0707e1438b858bb11622a76) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '99c7126aede45cd7e91015eeec2f7b1c') in 0.011683 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprite/Room_Builder32x32.png
+  artifactKey: Guid(d9e6c596e45619b42898514bcad63aa0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprite/Room_Builder32x32.png using Guid(d9e6c596e45619b42898514bcad63aa0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '972a9deab820a1ee6f1c12a87b68bf98') in 0.634211 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 229
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/TileMap/Room_Builder32x32_186.asset
+  artifactKey: Guid(2dc63b150500d4b48b3985ecda377b84) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Room_Builder32x32_186.asset using Guid(2dc63b150500d4b48b3985ecda377b84) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e0b974d538b9830a4639b6e1c30d856b') in 0.018324 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/TileMap/Room_Builder32x32_191.asset
+  artifactKey: Guid(23aab8a5b8fc3044a8953bb0718fa5c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TileMap/Room_Builder32x32_191.asset using Guid(23aab8a5b8fc3044a8953bb0718fa5c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7a99eb9f3d845c55a35071a7af663286') in 0.014549 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Animator/Player.controller
+  artifactKey: Guid(d2540c6b0033f2541968f4ae559ecedd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Animator/Player.controller using Guid(d2540c6b0033f2541968f4ae559ecedd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '32952da0bf114f6cc9a8645cfcbbdb42') in 0.012700 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.501 seconds
+Refreshing native plugins compatible for Editor in 3.40 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.208 seconds
+Domain Reload Profiling: 1707ms
+	BeginReloadAssembly (181ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (48ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (240ms)
+		LoadAssemblies (310ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (21ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (1209ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (583ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (28ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (85ms)
+			ProcessInitializeOnLoadAttributes (375ms)
+			ProcessInitializeOnLoadMethodAttributes (79ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 3.41 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5562 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 70 unused Assets / (1.3 MB). Loaded Objects now: 6084.
+Memory consumption went from 191.9 MB to 190.6 MB.
+Total: 4.574900 ms (FindLiveObjects: 0.474600 ms CreateObjectMapping: 0.207600 ms MarkObjects: 3.289800 ms  DeleteObjects: 0.601800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.493 seconds
+Refreshing native plugins compatible for Editor in 3.42 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.206 seconds
+Domain Reload Profiling: 1696ms
+	BeginReloadAssembly (165ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (247ms)
+		LoadAssemblies (313ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (22ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (1206ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (576ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (27ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (84ms)
+			ProcessInitializeOnLoadAttributes (374ms)
+			ProcessInitializeOnLoadMethodAttributes (77ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 3.39 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5562 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 70 unused Assets / (1.3 MB). Loaded Objects now: 6088.
+Memory consumption went from 191.9 MB to 190.6 MB.
+Total: 4.040800 ms (FindLiveObjects: 0.439500 ms CreateObjectMapping: 0.166000 ms MarkObjects: 2.816800 ms  DeleteObjects: 0.617800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.497 seconds
+Refreshing native plugins compatible for Editor in 3.62 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.224 seconds
+Domain Reload Profiling: 1719ms
+	BeginReloadAssembly (168ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (250ms)
+		LoadAssemblies (317ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (22ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (1224ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (588ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (27ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (86ms)
+			ProcessInitializeOnLoadAttributes (379ms)
+			ProcessInitializeOnLoadMethodAttributes (79ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 2.90 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5562 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 70 unused Assets / (1.3 MB). Loaded Objects now: 6092.
+Memory consumption went from 191.9 MB to 190.6 MB.
+Total: 4.299200 ms (FindLiveObjects: 0.457900 ms CreateObjectMapping: 0.187700 ms MarkObjects: 3.050400 ms  DeleteObjects: 0.602400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.499 seconds
+Refreshing native plugins compatible for Editor in 3.69 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.229 seconds
+Domain Reload Profiling: 1725ms
+	BeginReloadAssembly (166ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (253ms)
+		LoadAssemblies (318ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (22ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (1230ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (595ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (29ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (89ms)
+			ProcessInitializeOnLoadAttributes (381ms)
+			ProcessInitializeOnLoadMethodAttributes (81ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 3.26 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5562 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 70 unused Assets / (1.3 MB). Loaded Objects now: 6096.
+Memory consumption went from 192.0 MB to 190.6 MB.
+Total: 4.318000 ms (FindLiveObjects: 0.662400 ms CreateObjectMapping: 0.236500 ms MarkObjects: 2.790800 ms  DeleteObjects: 0.627600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.505 seconds
+Refreshing native plugins compatible for Editor in 3.80 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.324 seconds
+Domain Reload Profiling: 1827ms
+	BeginReloadAssembly (166ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (259ms)
+		LoadAssemblies (324ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (23ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (1325ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (591ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (28ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (87ms)
+			ProcessInitializeOnLoadAttributes (380ms)
+			ProcessInitializeOnLoadMethodAttributes (82ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 3.05 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5562 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 70 unused Assets / (1.3 MB). Loaded Objects now: 6100.
+Memory consumption went from 191.9 MB to 190.6 MB.
+Total: 4.599700 ms (FindLiveObjects: 0.559600 ms CreateObjectMapping: 0.197700 ms MarkObjects: 3.220300 ms  DeleteObjects: 0.620500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

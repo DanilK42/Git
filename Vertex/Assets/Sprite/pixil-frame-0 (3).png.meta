@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 857636594f382014bbf4276f61e19643
+guid: a7b90db775d553e4c8a909366269e359
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 48
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -70,7 +70,7 @@ TextureImporter:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
-    resizeAlgorithm: 1
+    resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
     compressionQuality: 50
@@ -110,127 +110,22 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Interiors_free_48x48_0
+      name: pixil-frame-0 (3)_0
       rect:
         serializedVersion: 2
-        x: 37
-        y: 2926
-        width: 118
-        height: 78
+        x: 5
+        y: 2
+        width: 22
+        height: 28
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 756acb741b392ef45a689e0f16bf98c0
-      internalID: -221909462
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Interiors_free_48x48_1
-      rect:
-        serializedVersion: 2
-        x: 198
-        y: 2901
-        width: 17
-        height: 26
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ecb750682e856fe478b8010782df1c5b
-      internalID: -1344339569
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Interiors_free_48x48_2
-      rect:
-        serializedVersion: 2
-        x: 144
-        y: 3792
-        width: 48
-        height: 65
-      alignment: 9
-      pivot: {x: 0.51646835, y: 0.25982195}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f10367d51109d694a8633568ebc8c8a6
-      internalID: 1401908462
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Interiors_free_48x48_3
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 3840
-        width: 38
-        height: 48
-      alignment: 9
-      pivot: {x: 0.5, y: 0.2598877}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0dd6f7e368fed8049a0cdef96971a4f6
-      internalID: -852996515
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Interiors_free_48x48_4
-      rect:
-        serializedVersion: 2
-        x: 10
-        y: 3840
-        width: 38
-        height: 48
-      alignment: 9
-      pivot: {x: 0.51213187, y: 0.25028482}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ed881fe48702f6748b4b965410252ef6
-      internalID: 109513479
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Interiors_free_48x48_5
-      rect:
-        serializedVersion: 2
-        x: 244
-        y: 3168
-        width: 40
-        height: 65
-      alignment: 9
-      pivot: {x: 0.5, y: 0.3}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d19cd789708a32646a0a2f26566cc5b2
-      internalID: -340709595
+      spriteID: d40d35415c3e31b41b91c70b49908ba4
+      internalID: 18376381
       vertices: []
       indices: 
       edges: []
@@ -246,12 +141,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Interiors_free_48x48_0: -221909462
-      Interiors_free_48x48_1: -1344339569
-      Interiors_free_48x48_2: 1401908462
-      Interiors_free_48x48_3: -852996515
-      Interiors_free_48x48_4: 109513479
-      Interiors_free_48x48_5: -340709595
+      pixil-frame-0 (3)_0: 18376381
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

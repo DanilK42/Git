@@ -36,6 +36,7 @@ public class ElevatorButton : MonoBehaviour
 
         if (isPlayerInTrigger && Input.GetKeyDown(KeyCode.E))
         {
+            Button.SetActive(false);
             Move.muv = false;
             anima.SetTrigger("ElevatorButton");
             Invoke("spawnObj", time);
@@ -44,7 +45,7 @@ public class ElevatorButton : MonoBehaviour
 
     void spawnObj ()
     {
-        Button.SetActive(false);
+        
         Move.muv = true;
         Box.SetActive(true);
     }

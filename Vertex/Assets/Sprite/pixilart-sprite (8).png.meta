@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 857636594f382014bbf4276f61e19643
+guid: 030a2ad78b41fba4f8717436e6fa58b5
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -44,11 +44,11 @@ TextureImporter:
   lightmap: 0
   compressionQuality: 50
   spriteMode: 2
-  spriteExtrude: 1
+  spriteExtrude: 0
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 48
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -70,7 +70,7 @@ TextureImporter:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
-    resizeAlgorithm: 1
+    resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
     compressionQuality: 50
@@ -110,127 +110,64 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Interiors_free_48x48_0
+      name: pixilart-sprite (8)_0
       rect:
         serializedVersion: 2
-        x: 37
-        y: 2926
-        width: 118
-        height: 78
+        x: 0
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 756acb741b392ef45a689e0f16bf98c0
-      internalID: -221909462
+      spriteID: e131c361006ffa54282ee243f651c53e
+      internalID: -1839948621
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Interiors_free_48x48_1
+      name: pixilart-sprite (8)_1
       rect:
         serializedVersion: 2
-        x: 198
-        y: 2901
-        width: 17
-        height: 26
+        x: 32
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ecb750682e856fe478b8010782df1c5b
-      internalID: -1344339569
+      spriteID: 2bec722c8e6bcf2448b7e010edf5fe56
+      internalID: -1152796360
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Interiors_free_48x48_2
+      name: pixilart-sprite (8)_2
       rect:
         serializedVersion: 2
-        x: 144
-        y: 3792
-        width: 48
-        height: 65
-      alignment: 9
-      pivot: {x: 0.51646835, y: 0.25982195}
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f10367d51109d694a8633568ebc8c8a6
-      internalID: 1401908462
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Interiors_free_48x48_3
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 3840
-        width: 38
-        height: 48
-      alignment: 9
-      pivot: {x: 0.5, y: 0.2598877}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0dd6f7e368fed8049a0cdef96971a4f6
-      internalID: -852996515
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Interiors_free_48x48_4
-      rect:
-        serializedVersion: 2
-        x: 10
-        y: 3840
-        width: 38
-        height: 48
-      alignment: 9
-      pivot: {x: 0.51213187, y: 0.25028482}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ed881fe48702f6748b4b965410252ef6
-      internalID: 109513479
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Interiors_free_48x48_5
-      rect:
-        serializedVersion: 2
-        x: 244
-        y: 3168
-        width: 40
-        height: 65
-      alignment: 9
-      pivot: {x: 0.5, y: 0.3}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d19cd789708a32646a0a2f26566cc5b2
-      internalID: -340709595
+      spriteID: 51a97984464712d4081ccea3fabcca4b
+      internalID: -763863918
       vertices: []
       indices: 
       edges: []
@@ -246,12 +183,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Interiors_free_48x48_0: -221909462
-      Interiors_free_48x48_1: -1344339569
-      Interiors_free_48x48_2: 1401908462
-      Interiors_free_48x48_3: -852996515
-      Interiors_free_48x48_4: 109513479
-      Interiors_free_48x48_5: -340709595
+      pixilart-sprite (8)_0: -1839948621
+      pixilart-sprite (8)_1: -1152796360
+      pixilart-sprite (8)_2: -763863918
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
