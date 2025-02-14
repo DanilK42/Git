@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "E:\\Copy\\sdfsdf\\Vertex\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6BF8B4CF-D90B-2C86-1131-AE9921033F0B}|Assembly-CSharp.csproj|e:\\copy\\sdfsdf\\vertex\\assets\\scripts\\minigame4\\opeanpincode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6BF8B4CF-D90B-2C86-1131-AE9921033F0B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\minigame4\\opeanpincode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6BF8B4CF-D90B-2C86-1131-AE9921033F0B}|Assembly-CSharp.csproj|e:\\copy\\sdfsdf\\vertex\\assets\\scripts\\minigame5\\startgame5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BF8B4CF-D90B-2C86-1131-AE9921033F0B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\minigame5\\startgame5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6BF8B4CF-D90B-2C86-1131-AE9921033F0B}|Assembly-CSharp.csproj|e:\\copy\\sdfsdf\\vertex\\assets\\scripts\\minigame3\\gamestart12.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6BF8B4CF-D90B-2C86-1131-AE9921033F0B}|Assembly-CSharp.csproj|E:\\Copy\\sdfsdf\\Vertex\\assets\\scripts\\minigame3\\gamestart12.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6BF8B4CF-D90B-2C86-1131-AE9921033F0B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\minigame3\\gamestart12.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BF8B4CF-D90B-2C86-1131-AE9921033F0B}|Assembly-CSharp.csproj|e:\\copy\\sdfsdf\\vertex\\assets\\scripts\\minigame4\\opeanpincode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BF8B4CF-D90B-2C86-1131-AE9921033F0B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\minigame4\\opeanpincode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,6 +27,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "StartGame5.cs",
+              "DocumentMoniker": "E:\\Copy\\sdfsdf\\Vertex\\Assets\\Scripts\\MiniGame5\\StartGame5.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MiniGame5\\StartGame5.cs",
+              "ToolTip": "E:\\Copy\\sdfsdf\\Vertex\\Assets\\Scripts\\MiniGame5\\StartGame5.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MiniGame5\\StartGame5.cs",
+              "ViewState": "AQIAADUAAAAAAAAAAAAMwE0AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T18:30:04.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "OpeanPincode.cs",
               "DocumentMoniker": "E:\\Copy\\sdfsdf\\Vertex\\Assets\\Scripts\\MiniGame4\\OpeanPincode.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MiniGame4\\OpeanPincode.cs",
@@ -41,7 +58,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\MiniGame3\\GameStart12.cs",
               "ToolTip": "E:\\Copy\\sdfsdf\\Vertex\\Assets\\Scripts\\MiniGame3\\GameStart12.cs",
               "RelativeToolTip": "Assets\\Scripts\\MiniGame3\\GameStart12.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAADUAAAAwAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-14T13:25:00.98Z",
               "EditorCaption": ""
