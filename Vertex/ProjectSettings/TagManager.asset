@@ -6,6 +6,11 @@ TagManager:
   tags:
   - Puzzle
   - Key
+  - Wall
+  - Food
+  - Tale
+  - Border
+  - Head
   layers:
   - Default
   - TransparentFX
