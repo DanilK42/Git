@@ -41,17 +41,7 @@ public class StartGame5 : MonoBehaviour
 
     void Update()
     {
-        if (GameController.win == true)
-        {
-            LiftDor.SetActive(true);
-            Move.muv = true;
-            anima.SetTrigger("BlackWind");
-            Invoke("Teleport2", time);
-            Debug.Log("Win");
-            checkGame.SetActive(false);
-            MoveP.Game = false;
-            textBar.gameObject.SetActive(false);
-        }
+       
 
         if (isPlayerInTrigger && Input.GetKeyDown(KeyCode.E))
         {
