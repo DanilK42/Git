@@ -21,6 +21,7 @@ public class Move : MonoBehaviour
     {
         if (muv)
         {
+            // Сначала сбрасываем все анимации
             anima.SetBool("IsUp", false);
             anima.SetBool("IsDown", false);
             anima.SetBool("IsRight", false);
@@ -30,13 +31,15 @@ public class Move : MonoBehaviour
             Vector2 moveInput = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
             moveVelocity = moveInput * speed;
 
-            // Обработка анимаций
+            // Если движение есть, обрабатываем анимацию
             if (moveInput.magnitude > 0.1f)
             {
                 anima.SetBool("IsIdl", false);
 
+                // Определяем направление движения
                 if (Mathf.Abs(moveInput.y) > Mathf.Abs(moveInput.x))
                 {
+                    // Если движение больше по оси Y, включаем соответствующую анимацию
                     if (moveInput.y > 0)
                         anima.SetBool("IsUp", true);
                     else
@@ -44,6 +47,7 @@ public class Move : MonoBehaviour
                 }
                 else
                 {
+                    // Если движение больше по оси X, включаем соответствующую анимацию
                     if (moveInput.x > 0)
                         anima.SetBool("IsRight", true);
                     else
@@ -53,13 +57,13 @@ public class Move : MonoBehaviour
         }
         else
         {
+            // Если движение выключено, устанавливаем Idle анимацию
             anima.SetBool("IsUp", false);
             anima.SetBool("IsDown", false);
             anima.SetBool("IsRight", false);
             anima.SetBool("IsLeft", false);
             anima.SetBool("IsIdl", true);
         }
-        
     }
 
     void FixedUpdate()

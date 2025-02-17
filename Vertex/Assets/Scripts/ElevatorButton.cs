@@ -7,6 +7,7 @@ public class ElevatorButton : MonoBehaviour
     public GameObject Box;
     public GameObject Button;
     public Animator anima;
+    public Animator anima2;
     public float time;
     private bool isPlayerInTrigger = false;
 
@@ -20,6 +21,7 @@ public class ElevatorButton : MonoBehaviour
         if (other.gameObject.CompareTag("Player"))
         {
             isPlayerInTrigger = true;
+            anima2.SetBool("isOpen", true);
         }
     }
 
@@ -28,6 +30,7 @@ public class ElevatorButton : MonoBehaviour
         if (other.gameObject.CompareTag("Player"))
         {
             isPlayerInTrigger = false;
+            anima2.SetBool("isOpen", false );
         }
     }
 
@@ -40,6 +43,7 @@ public class ElevatorButton : MonoBehaviour
             Move.muv = false;
             anima.SetTrigger("ElevatorButton");
             Invoke("spawnObj", time);
+            anima2.SetBool("isOpen", false);
         }
     }
 

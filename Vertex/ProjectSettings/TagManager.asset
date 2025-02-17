@@ -11,6 +11,7 @@ TagManager:
   - Tale
   - Border
   - Head
+  - Basket
   layers:
   - Default
   - TransparentFX
