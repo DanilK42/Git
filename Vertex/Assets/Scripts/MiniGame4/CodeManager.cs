@@ -7,13 +7,17 @@ public class CodeManager : MonoBehaviour
     public Text textCode;
     public string code;
     public GameObject ElevatorChek;
+    public GameObject ElevatorChek2;
     public GameObject PincodeChek;
     public Animator anima;
+    public bool check = false;
 
     private void Start()
     {
         ElevatorChek.SetActive(false);
+        ElevatorChek2.SetActive(false);
     }
+
 
     void Update()
     {
@@ -70,13 +74,21 @@ public class CodeManager : MonoBehaviour
     
     public void ButtonEnter()
     {
-        if (code == "804")
+        if (code == "804" && check == false)
         {
             ElevatorChek.SetActive(true);
             Move.muv = true;
             anima.SetBool("IsOpean", false);
             PincodeChek.SetActive (false);
-
+            check = true;
+        }
+        else if (code == "1482")
+        {
+            ElevatorChek2.SetActive(true);
+            Move.muv = true;
+            anima.SetBool("IsOpean", false);
+            PincodeChek.SetActive(false);
+            check = true;
         }
         else
         {
@@ -89,5 +101,6 @@ public class CodeManager : MonoBehaviour
     {
         code = "";
     }
+
 
 }
