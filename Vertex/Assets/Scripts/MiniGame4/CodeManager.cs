@@ -9,6 +9,7 @@ public class CodeManager : MonoBehaviour
     public GameObject ElevatorChek;
     public GameObject ElevatorChek2;
     public GameObject PincodeChek;
+    public GameObject PincodeChek2;
     public Animator anima;
     public bool check = false;
 
@@ -87,7 +88,7 @@ public class CodeManager : MonoBehaviour
             ElevatorChek2.SetActive(true);
             Move.muv = true;
             anima.SetBool("IsOpean", false);
-            PincodeChek.SetActive(false);
+            PincodeChek2.SetActive(false);
             check = true;
         }
         else
