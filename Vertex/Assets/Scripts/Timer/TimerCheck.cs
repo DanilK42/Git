@@ -14,10 +14,10 @@ public class TimerCheck : MonoBehaviour
     private List<float> levelTimes = new List<float>();  // Список для хранения времени каждого уровня
     private int currentLevel = 0;  // Номер текущего уровня
     private Coroutine _timerCoroutine;
-
+    Timer timer1;
     void Start()
     {
-       
+        timer1 = FindObjectOfType<Timer>();
 
     }
 
@@ -74,7 +74,7 @@ public class TimerCheck : MonoBehaviour
 
     // Метод для завершения уровня
     public void CompleteLevel()
-    {  if (currentLevel < 5 )
+    {  if (currentLevel < 9 )
         {
             levelTimes.Add(_elapsedTime);  // Сохраняем время для текущего уровня
             Debug.Log($"Уровень {currentLevel + 1} завершен за {_elapsedTime:F2} секунд");
@@ -90,15 +90,24 @@ public class TimerCheck : MonoBehaviour
     }
 
     // Метод для вывода результатов
-    private void ShowResults()
+    public void ShowResults()
     {
+        StopTimer();
         resultText.text = "Результаты:\n";
         for (int i = 0; i < levelTimes.Count; i++)
         {
             int minutes = Mathf.FloorToInt(levelTimes[i] / 60);
             int seconds = Mathf.FloorToInt(levelTimes[i] % 60);
-            resultText.text += $"Уровень {i + 1}: {minutes:00}:{seconds:00}\n";
+            resultText.text += $"Уровень {i + 1}:  {minutes:00} : {seconds:00}\n";
+            timer1.StopTimer();
         }
         Debug.Log("Все уровни пройдены!");
+
+    }
+    public void StopTimer()
+    {
+        StopAllCoroutines(); // Останавливает все корутины, включая общий и уровень таймеры
+        _isRunning = false;  // Останавливаем таймер уровня
+        Debug.Log("Таймер остановлен");
     }
 }

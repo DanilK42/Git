@@ -2,7 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-public class StartGame6 : MonoBehaviour
+
+public class StartGame7 : MonoBehaviour
 {
     public Camera cam;
     public Transform scenCam;
@@ -16,14 +17,12 @@ public class StartGame6 : MonoBehaviour
     public GameObject Game;
     public Animator e;
 
-
-
     private void Awake()
     {
         LiftDor.SetActive(false);
         checkGame.SetActive(true);
         textBar.gameObject.SetActive(false);
-        Game .SetActive(false);
+        Game.SetActive(false);
     }
 
     void OnTriggerEnter2D(Collider2D other)
@@ -46,7 +45,7 @@ public class StartGame6 : MonoBehaviour
 
     void Update()
     {
-        if (MoveHead.Win == true)
+        if (ScoreManager.win == true)
         {
             LiftDor.SetActive(true);
             Move.muv = true;
@@ -67,17 +66,20 @@ public class StartGame6 : MonoBehaviour
             anima.SetTrigger("BlackWind");
             Invoke("Teleport", time);
             e.SetBool("isOpen", false);
+
         }
     }
 
     void Teleport()
     {
-        cam.transform.position = gameCam.position;
         textBar.gameObject.SetActive(true);
+        cam.transform.position = gameCam.position;
+        
     }
     void Teleport2()
     {
-        cam.transform.position = scenCam.position;
         textBar.gameObject.SetActive(false);
+        cam.transform.position = scenCam.position;
+        
     }
 }

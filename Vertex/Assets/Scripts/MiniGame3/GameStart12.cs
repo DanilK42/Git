@@ -14,9 +14,9 @@ public class GameStart12 : MonoBehaviour
     public GameObject LiftDor;
     private bool isPlayerInTrigger = false;
     [SerializeField] public Image textBar;
+    public Animator e;
 
-
-    private void Start()
+    private void Awake()
     {
         LiftDor.SetActive(false);
         checkGame.SetActive(true);
@@ -29,6 +29,7 @@ public class GameStart12 : MonoBehaviour
         if (other.gameObject.CompareTag("Player"))
         {
             isPlayerInTrigger = true;
+            e.SetBool("isOpen", true);
         }
     }
 
@@ -37,6 +38,7 @@ public class GameStart12 : MonoBehaviour
         if (other.gameObject.CompareTag("Player"))
         {
             isPlayerInTrigger = false;
+            e.SetBool("isOpen", false);
         }
     }
 
@@ -62,6 +64,7 @@ public class GameStart12 : MonoBehaviour
             Move.muv = false;
             anima.SetTrigger("BlackWind");
             Invoke("Teleport", time);
+            e.SetBool("isOpen", false);
         }
     }
 

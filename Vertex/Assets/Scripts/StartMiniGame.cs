@@ -9,13 +9,14 @@ public class StartMiniGame : MonoBehaviour
     public Transform scenCam;
     public Transform gameCam;
     public Animator anima;
+    public Animator e;
     public float time;
     public GameObject checkGame;
     public GameObject LiftDor;
     private bool isPlayerInTrigger = false;
 
 
-    private void Start()
+    private void Awake()
     {
         LiftDor.SetActive(false);
         checkGame.SetActive(true);
@@ -26,6 +27,7 @@ public class StartMiniGame : MonoBehaviour
         if (other.gameObject.CompareTag("Player"))
         {
             isPlayerInTrigger = true;
+            e.SetBool("isOpen", true);
         }
     }
 
@@ -33,6 +35,7 @@ public class StartMiniGame : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
+            e.SetBool("isOpen", false);
             isPlayerInTrigger = false;
         }
     }
@@ -51,11 +54,13 @@ public class StartMiniGame : MonoBehaviour
 
         if (isPlayerInTrigger && Input.GetKeyDown(KeyCode.E))
         {
+            e.SetBool("isOpen", true);
             Collider2D targetCollider = checkGame.GetComponent<Collider2D>();
             targetCollider.enabled = false;
             Move.muv = false;
             anima.SetTrigger("BlackWind");
             Invoke("Teleport", time);
+            e.SetBool("isOpen", false);
         }
     }
 

@@ -13,9 +13,9 @@ public class StartGame4 : MonoBehaviour
     public GameObject dialog;
     private bool isPlayerInTrigger = false;
     public bool clouseGame ;
+    public Animator e;
 
-
-    private void Start()
+    private void Awake()
     {
         checkGame.SetActive(true);
         clouseGame = false;
@@ -26,6 +26,7 @@ public class StartGame4 : MonoBehaviour
         if (other.gameObject.CompareTag("Player"))
         {
             isPlayerInTrigger = true;
+            e.SetBool("isOpen", true);
         }
     }
 
@@ -34,6 +35,7 @@ public class StartGame4 : MonoBehaviour
         if (other.gameObject.CompareTag("Player"))
         {
             isPlayerInTrigger = false;
+            e.SetBool("isOpen", false);
         }
     }
 
@@ -61,6 +63,7 @@ public class StartGame4 : MonoBehaviour
     void Teleport()
     {
         cam.transform.position = gameCam.position;
+        e.SetBool("isOpen", true);
     }
     void Teleport2()
     {

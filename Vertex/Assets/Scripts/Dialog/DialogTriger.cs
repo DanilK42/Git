@@ -9,10 +9,11 @@ public class DialogTriger : MonoBehaviour
     private bool checkPosition = false;
     public bool check = false;
     public GameObject BoxCheck;
-
+    private bool Check;
     private void Start()
     {
         BoxCheck.SetActive(false);
+        Check = true;
     }
 
     private void OpenDiag()
@@ -34,8 +35,13 @@ public class DialogTriger : MonoBehaviour
     {
         if(checkPosition == true && Input.GetKeyDown(KeyCode.E) && check == false)
         {
+            if (Check)
+            {
+                BoxCheck.SetActive(true);
+                Check = false;
+            }
             OpenDiag();
-            BoxCheck.SetActive(true);
+            
             anima.SetBool("isOpen", false);
 
         }

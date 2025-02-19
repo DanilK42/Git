@@ -11,7 +11,7 @@ public class ElevatorButton : MonoBehaviour
     public float time;
     private bool isPlayerInTrigger = false;
 
-    private void Start()
+    private void Awake()
     {
         Box.SetActive(false);
         Button.SetActive(true);

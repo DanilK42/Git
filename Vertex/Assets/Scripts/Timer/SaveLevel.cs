@@ -1,16 +1,17 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
-public class StartTime : MonoBehaviour
+public class SaveLevel : MonoBehaviour
 {
     TimerCheck timer1;
-    Timer timer2;
+    
 
     void Start()
     {
         timer1 = FindObjectOfType<TimerCheck>(); // Ищет объект с этим скриптом
-        timer2 = FindObjectOfType<Timer>();      // Ищет объект с этим скриптом
-
-        if (timer1 == null || timer2 == null)
+        
+        if (timer1 == null)
         {
             Debug.LogError("Один из таймеров не найден! Проверьте, есть ли они на сцене.");
         }
@@ -20,9 +21,8 @@ public class StartTime : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            if (timer1 != null) timer1.StartLevel();
-            if (timer2 != null) timer2.StartLevel();
-            
+            if (timer1 != null) timer1.CompleteLevel();
+
         }
     }
 }

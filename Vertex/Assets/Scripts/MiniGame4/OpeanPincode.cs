@@ -10,6 +10,8 @@ public class OpeanPincode : MonoBehaviour
     private bool isPlayerInTrigger = false;
     public Animator anima;
     public bool isOpean = true;
+    public Animator e;
+
     void Start()
     {
         Consol.gameObject.SetActive(true);
@@ -21,6 +23,7 @@ public class OpeanPincode : MonoBehaviour
         if (other.gameObject.CompareTag("Player"))
         {
             isPlayerInTrigger = true;
+            e.SetBool("isOpen", true);
         }
     }
 
@@ -29,6 +32,7 @@ public class OpeanPincode : MonoBehaviour
         if (other.gameObject.CompareTag("Player"))
         {
             isPlayerInTrigger = false;
+            e.SetBool("isOpen", false);
         }
     }
     private void Update()

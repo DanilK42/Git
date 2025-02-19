@@ -9,8 +9,11 @@ public class Timer : MonoBehaviour
     [SerializeField] private Text timerText;
     [SerializeField] private Text Text;
     private float _timeLeft;
-
-
+    TimerCheck timer1;
+    private void Start()
+    {
+        timer1 = FindObjectOfType<TimerCheck>();
+    }
     public void StartLevel()
     {
         _timeLeft = time;
@@ -21,15 +24,21 @@ public class Timer : MonoBehaviour
     {
         while(_timeLeft > 0)
         {
-            _timeLeft-= Time.deltaTime;
+            _timeLeft+= Time.deltaTime;
             UpdateTimeText();
             yield return null;
         }
         _timeLeft = 0;
         UpdateTimeText();
-        Text.text = "Вы проиграли"; 
+        timer1.ShowResults();
+        
     }
-    
+    public void StopTimer()
+    {
+        StopAllCoroutines();
+        Debug.Log("Таймер остановлен");
+    }
+
     private void UpdateTimeText()
     {
         if (_timeLeft < 0) 
@@ -39,4 +48,5 @@ public class Timer : MonoBehaviour
         float seconds = Mathf.FloorToInt(_timeLeft % 60);
         timerText.text = string.Format("{0:00}:{1:00}", minutes, seconds);
     }
+
 }
