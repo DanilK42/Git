@@ -48,8 +48,7 @@ public class StartGame5 : MonoBehaviour
         if (isPlayerInTrigger && Input.GetKeyDown(KeyCode.E))
         {
             MoveP.Game = true;
-            Collider2D targetCollider = checkGame.GetComponent<Collider2D>();
-            targetCollider.enabled = false;
+            checkGame.SetActive(false);
             Move.muv = false;
             anima.SetTrigger("BlackWind");
             Invoke("Teleport", time);

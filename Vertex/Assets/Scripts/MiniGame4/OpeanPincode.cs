@@ -6,16 +6,27 @@ using UnityEngine.UI;
 
 public class OpeanPincode : MonoBehaviour
 {
-    [SerializeField] public Image Consol;
+    [SerializeField] private Image Consol;
     private bool isPlayerInTrigger = false;
     public Animator anima;
     public bool isOpean = true;
     public Animator e;
 
-    void Start()
+    void Awake()
     {
-        Consol.gameObject.SetActive(true);
+        if (Consol != null)
+        {
+            Consol.gameObject.SetActive(true);
+        }
         isOpean = true;
+    }
+
+    private void Start()
+    {
+        if (Consol != null)
+        {
+            Consol.gameObject.SetActive(false);
+        }
     }
 
     void OnTriggerEnter2D(Collider2D other)
@@ -24,6 +35,11 @@ public class OpeanPincode : MonoBehaviour
         {
             isPlayerInTrigger = true;
             e.SetBool("isOpen", true);
+
+            if (Consol != null)
+            {
+                Consol.gameObject.SetActive(true);
+            }
         }
     }
 
@@ -31,24 +47,32 @@ public class OpeanPincode : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
+            if (Consol != null)  // Проверяем, что объект существует
+            {
+                Consol.gameObject.SetActive(false);
+            }
+
             isPlayerInTrigger = false;
             e.SetBool("isOpen", false);
         }
     }
+
     private void Update()
     {
-        if (isPlayerInTrigger && Input.GetKeyDown(KeyCode.E) && isOpean == true)
+        if (isPlayerInTrigger && Input.GetKeyDown(KeyCode.E))
         {
-            anima.SetBool("IsOpean",true);
-            isOpean =false;
-            Move.muv = false;
+            if (isOpean)
+            {
+                anima.SetBool("IsOpean", true);
+                isOpean = false;
+                Move.muv = false;
+            }
+            else
+            {
+                anima.SetBool("IsOpean", false);
+                isOpean = true;
+                Move.muv = true;
+            }
         }
-        else if (isPlayerInTrigger && Input.GetKeyDown(KeyCode.E) && isOpean == false)
-        {
-            anima.SetBool("IsOpean", false);
-            isOpean = true;
-            Move.muv = true;
-        }
-        
     }
 }

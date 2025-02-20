@@ -94,13 +94,24 @@ public class TimerCheck : MonoBehaviour
     {
         StopTimer();
         resultText.text = "Результаты:\n";
+
+        float totalElapsedTime = 0f; // Общее время прохождения всех уровней
+
         for (int i = 0; i < levelTimes.Count; i++)
         {
             int minutes = Mathf.FloorToInt(levelTimes[i] / 60);
             int seconds = Mathf.FloorToInt(levelTimes[i] % 60);
-            resultText.text += $"Уровень {i + 1}:  {minutes:00} : {seconds:00}\n";
-            timer1.StopTimer();
+            resultText.text += $"Уровень {i + 1}....................................................{minutes:00}:{seconds:00}\n";
+
+            totalElapsedTime += levelTimes[i]; // Суммируем общее время
         }
+
+        // Вывод общего времени
+        int totalMinutes = Mathf.FloorToInt(totalElapsedTime / 60);
+        int totalSeconds = Mathf.FloorToInt(totalElapsedTime % 60);
+        resultText.text += $"Общее время в игре: {totalMinutes:00}:{totalSeconds:00}\n";
+
+        timer1.StopTimer();
         Debug.Log("Все уровни пройдены!");
 
     }
