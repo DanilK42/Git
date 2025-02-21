@@ -21,8 +21,9 @@ public class EnableButton : MonoBehaviour
     {
         if (check)
         {
+            
             check = false;
-            Move.muv = false;
+            Move.muv2 = false;
             BlackScren.SetTrigger("BlackWind");
             Invoke("IsOpean", 1.3f);
         }
@@ -44,7 +45,7 @@ public class EnableButton : MonoBehaviour
     {
         DoskaAnim.SetBool("IsOpen", false);
         
-        Move.muv = true;
+        Move.muv2 = true;
     }
 
     public void Exit()

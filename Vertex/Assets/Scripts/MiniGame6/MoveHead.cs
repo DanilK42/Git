@@ -17,7 +17,8 @@ public class MoveHead : MonoBehaviour
     public int chet = 0;
     [SerializeField] private Text scoreText;
     public static bool Win = false;
-
+    [SerializeField] private AudioClip _playSaund1;
+    private AudioSource _audioSource;
     // Start is called before the first frame update
     void Start()
     {
@@ -25,6 +26,7 @@ public class MoveHead : MonoBehaviour
         rb.velocity = transform.up * speed;
         lastNode = transform;
         scoreText.text = chet + " из 20";
+        _audioSource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -56,7 +58,7 @@ public class MoveHead : MonoBehaviour
             {
                 StartCoroutine(SetTagWithDelay(col.transform)); // Добавляем задержку
             }
-
+            _audioSource.PlayOneShot(_playSaund1, 1f);
             col.transform.GetComponent<Node>().Init(lastNode);
             lastNode = col.transform;
             GenerateFood();

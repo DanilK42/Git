@@ -9,17 +9,27 @@ public class Move : MonoBehaviour
     private Rigidbody2D rb;
     private Vector2 moveVelocity;
     public static bool muv;
+    public static bool muv2;
     public Animator anima;
+    [SerializeField] private AudioClip _playSaund;
+    private AudioSource _audioSource;
 
     void Start()
     {
+        _audioSource = GetComponent<AudioSource>();
         rb = GetComponent<Rigidbody2D>();
         muv = true;
+        muv2 = true;
+    }
+
+    private void PleySoundStep ()
+    {
+        _audioSource.PlayOneShot(_playSaund,1f);
     }
 
     void Update()
     {
-        if (muv)
+        if (muv && muv2)
         {
             // Сначала сбрасываем все анимации
             anima.SetBool("IsUp", false);
@@ -68,7 +78,7 @@ public class Move : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (muv)
+        if (muv && muv2)
         {
             rb.MovePosition(rb.position + moveVelocity * Time.fixedDeltaTime);
         }

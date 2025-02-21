@@ -16,6 +16,9 @@ public class DialogManager : MonoBehaviour
 
     public Animator anim;
 
+    // Добавляем аудио
+    public AudioSource audioSource;
+    public AudioClip typingSound; // Добавьте в инспекторе
 
     private void Start()
     {
@@ -34,7 +37,6 @@ public class DialogManager : MonoBehaviour
         foreach (Sprite head in dialog.head)
         {
             Head.Enqueue(head);
-
         }
         foreach (string name in dialog.name)
         {
@@ -59,7 +61,6 @@ public class DialogManager : MonoBehaviour
         string name = Name.Dequeue();
         Sprite head = Head.Dequeue();
         StartCoroutine(TypeSetences(setence, name, head));
-
     }
 
     private void Update()
@@ -79,25 +80,27 @@ public class DialogManager : MonoBehaviour
         foreach (char letter in setence.ToCharArray())
         {
             dialogText.text += letter;
-            yield return null;
-        }
 
+            // Воспроизводим звук, если он назначен
+            if (typingSound != null && audioSource != null)
+            {
+                audioSource.PlayOneShot(typingSound);
+            }
+
+            yield return new WaitForSeconds(0.05f); // Задержка между буквами
+        }
     }
 
     public void ExitDialog(Dialog dialog)
     {
         anim.SetBool("IsOpen", false);
         Move.muv = true;
-
     }
-
-
 
     public void EndDialog()
     {
         anim.SetBool("IsOpen", false);
         Move.muv = true;
     }
-
-
 }
+

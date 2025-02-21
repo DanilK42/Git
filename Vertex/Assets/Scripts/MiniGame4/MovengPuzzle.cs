@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class MovengPuzzle : MonoBehaviour
 {
+    public Play play;
     bool move;
     Vector2 mousePos;
     float startPosX;
@@ -13,6 +14,7 @@ public class MovengPuzzle : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
+            play.PlaySaund();
             move = true;
             mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition); // Конвертация координат
             startPosX = mousePos.x - transform.position.x;

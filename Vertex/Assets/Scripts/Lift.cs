@@ -11,12 +11,19 @@ public class Lift : MonoBehaviour
     public Transform newCam;
     public Animator anima;
     public float time;
+    [SerializeField] private AudioClip _playSaund3;
+    private AudioSource _audioSource;
 
+    private void Start()
+    {
+        _audioSource = GetComponent<AudioSource>();
+    }
 
     void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.tag == "Player")
         {
+            _audioSource.PlayOneShot(_playSaund3, 1f);
             Move.muv = false;
             anima.SetTrigger("BlackWind");
             Invoke("Teleport", time);

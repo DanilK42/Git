@@ -15,11 +15,14 @@ public class Button_Setting : MonoBehaviour
     public Image image;
     public Animator DoskaAnim;
     public GameObject TenLeval;
+    [SerializeField] private AudioClip _playSaund1;
+    private AudioSource _audioSource;
 
     void Start()
     {
         spriteRenderer = GetComponent<SpriteRenderer>(); // Получаем компонент
         TenLeval.SetActive(true);
+        _audioSource = GetComponent<AudioSource>();
     }
 
     public void SetTransparency(float alpha)
@@ -50,6 +53,7 @@ public class Button_Setting : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.E) && clouseGame == true)
         {
+            _audioSource.PlayOneShot(_playSaund1, 1f);
             Collider2D targetCollider = checkButton.GetComponent<Collider2D>();
             targetCollider.enabled = true;
             Move.muv = true;
@@ -60,6 +64,7 @@ public class Button_Setting : MonoBehaviour
 
         if (isPlayerInTrigger && Input.GetKeyDown(KeyCode.E) && clouseGame == false)
         {
+            _audioSource.PlayOneShot(_playSaund1, 1f);
             Collider2D targetCollider = checkButton.GetComponent<Collider2D>();
             targetCollider.enabled = false;
             Move.muv = false;

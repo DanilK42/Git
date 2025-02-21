@@ -8,10 +8,13 @@ public class Button_Exit : MonoBehaviour
     
     public Animator anima;
     private SpriteRenderer spriteRenderer;
+    [SerializeField] private AudioClip _playSaund1;
+    private AudioSource _audioSource;
 
     void Start()
     {
         spriteRenderer = GetComponent<SpriteRenderer>(); // Получаем компонент
+        _audioSource = GetComponent<AudioSource>();
     }
 
     public void SetTransparency(float alpha)
@@ -43,7 +46,7 @@ public class Button_Exit : MonoBehaviour
         if (isPlayerInTrigger && Input.GetKeyDown(KeyCode.E))
         {
 
-
+            _audioSource.PlayOneShot(_playSaund1, 1f);
             ButExit();
 
         }

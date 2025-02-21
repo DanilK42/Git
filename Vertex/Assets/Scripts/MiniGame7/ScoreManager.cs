@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class ScoreManager : MonoBehaviour
 {
     public int score = 0;
-    public int winScore = 10;
+    public int winScore = 20;
     public int maxMissedApples = 3;
     public Text scoreText;
     public Image image;
@@ -45,7 +45,7 @@ public class ScoreManager : MonoBehaviour
 
     void UpdateScoreText()
     {
-        scoreText.text = "—чет: " + score + " из 10";
+        scoreText.text = "—чет: " + score + " из 20";
     }
 
     void WinGame()
@@ -62,7 +62,7 @@ public class ScoreManager : MonoBehaviour
         Debug.Log("¬ы проиграли!");
         score = 0;
         missedApples = 0;
-        scoreText.text = "—чет: " + score + " из 10";
+        scoreText.text = "—чет: " + score + " из 20";
 
     }
 }

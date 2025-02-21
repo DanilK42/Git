@@ -52,7 +52,12 @@ public class DialogTriger : MonoBehaviour
         if (col.CompareTag("Player"))
         {
             checkPosition = true;
-            anima.SetBool("isOpen", true);
+            if (!anima.GetBool("isOpen"))
+            {
+                anima.SetBool("isOpen", true);
+            }
+
+
         }
     }
 
@@ -60,7 +65,12 @@ public class DialogTriger : MonoBehaviour
     {
         if (col.CompareTag("Player"))
         {
-            anima.SetBool("isOpen", false);
+
+            if (anima.GetBool("isOpen"))
+            {
+                anima.SetBool("isOpen", false);
+            }
+
             checkPosition = false;
             ExitDiag();
             return;

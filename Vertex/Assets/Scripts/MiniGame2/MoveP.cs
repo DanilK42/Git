@@ -12,12 +12,15 @@ public class MoveP : MonoBehaviour
     [SerializeField] private Text scoreText;
     public GameObject teleport;
     public static bool Game;
+    [SerializeField] private AudioClip _playSaund1;
+    private AudioSource _audioSource;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         UpdateScoreText();
         teleport.SetActive(false);
+        _audioSource = GetComponent<AudioSource>();
     }
 
     private void Update()
@@ -44,6 +47,7 @@ public class MoveP : MonoBehaviour
     {
         if (collision.gameObject.tag == "Key")
         {
+            _audioSource.PlayOneShot(_playSaund1, 1f);
             Destroy(collision.gameObject);
             chet++;
             UpdateScoreText();

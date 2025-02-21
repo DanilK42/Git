@@ -10,11 +10,18 @@ public class ElevatorButton : MonoBehaviour
     public Animator anima2;
     public float time;
     private bool isPlayerInTrigger = false;
+    [SerializeField] private AudioClip _playSaund;
+    [SerializeField] private AudioClip _playSaund2;
+    [SerializeField] private AudioClip _playSaund3;
+    private AudioSource _audioSource;
+
+
 
     private void Awake()
     {
         Box.SetActive(false);
         Button.SetActive(true);
+        _audioSource = GetComponent<AudioSource>();
     }
     void OnTriggerEnter2D(Collider2D other)
     {
@@ -39,8 +46,11 @@ public class ElevatorButton : MonoBehaviour
 
         if (isPlayerInTrigger && Input.GetKeyDown(KeyCode.E))
         {
-            Button.SetActive(false);
             Move.muv = false;
+            _audioSource.PlayOneShot(_playSaund, 0.5f);
+            _audioSource.PlayOneShot(_playSaund2, 1f);
+            Button.GetComponent<Collider2D>().enabled = false; // Для 2D-игры
+            
             anima.SetTrigger("ElevatorButton");
             Invoke("spawnObj", time);
             anima2.SetBool("isOpen", false);
@@ -49,7 +59,7 @@ public class ElevatorButton : MonoBehaviour
 
     void spawnObj ()
     {
-        
+        _audioSource.PlayOneShot(_playSaund3, 1f);
         Move.muv = true;
         Box.SetActive(true);
     }

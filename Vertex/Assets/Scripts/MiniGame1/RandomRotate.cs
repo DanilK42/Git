@@ -5,7 +5,7 @@ using UnityEngine;
 public class RandomRotate : MonoBehaviour
 {
     public float rotationAngle = 90f;
-   
+    public Play play;
 
     private void Start()
     {
@@ -16,7 +16,7 @@ public class RandomRotate : MonoBehaviour
 
     void OnMouseDown()
     {
-       
+        play.PlaySaund();
         transform.Rotate(0, 0, rotationAngle);
     }
 }
