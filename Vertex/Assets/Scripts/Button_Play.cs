@@ -16,11 +16,11 @@ public class Button_Play : MonoBehaviour
     [SerializeField] private AudioClip _playSaund3;
     [SerializeField] private AudioClip _playSaund1;
     private AudioSource _audioSource;
-
+    public Animator e;
     //[SerializeField] private AudioClip _playSaund1;
     //private AudioSource _audioSource;
     //_audioSource = GetComponent<AudioSource>();
-      //   _audioSource.PlayOneShot(_playSaund1, 1f);
+    //   _audioSource.PlayOneShot(_playSaund1, 1f);
 
     void Start()
     {
@@ -40,6 +40,7 @@ public class Button_Play : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
+            e.SetBool("isOpen", true);
             isPlayerInTrigger = true;
             SetTransparency(1f);
         }
@@ -49,6 +50,7 @@ public class Button_Play : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
+            e.SetBool("isOpen", false);
             isPlayerInTrigger = false;
             SetTransparency(0.5f);
         }
@@ -57,9 +59,8 @@ public class Button_Play : MonoBehaviour
     {
         if (isPlayerInTrigger && Input.GetKeyDown(KeyCode.E))
         {
-
-            _audioSource.PlayOneShot(_playSaund1, 1f);
             Move.muv = false;
+            _audioSource.PlayOneShot(_playSaund1, 1f);
             anima.SetTrigger("BlackWind");
             Invoke("Teleport", 1.4f);
 

@@ -89,7 +89,7 @@ public class MoveHead : MonoBehaviour
     void GenerateFood()
     {
         // Создаём случайную позицию для нового объекта
-        Vector3 randomPosition = new Vector3(Random.Range(101f, 114f), Random.Range(-6f, -13f), 0f);
+        Vector3 randomPosition = new Vector3(Random.Range(101f, 114f), Random.Range(-7.5f, -12.5f), 0f);
 
         // Инстанцируем объект
         GameObject food = Instantiate(foodPrefab, randomPosition, Quaternion.identity);

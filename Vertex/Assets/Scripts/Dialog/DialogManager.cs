@@ -15,7 +15,7 @@ public class DialogManager : MonoBehaviour
     public Queue<Sprite> Head;
 
     public Animator anim;
-
+    private bool isDialogActive = false; // Флаг активности диалога
     // Добавляем аудио
     public AudioSource audioSource;
     public AudioClip typingSound; // Добавьте в инспекторе
@@ -29,6 +29,7 @@ public class DialogManager : MonoBehaviour
 
     public void StartDialog(Dialog dialog)
     {
+        isDialogActive = true;
         anim.SetBool("IsOpen", true);
         Setences.Clear();
         Name.Clear();
@@ -65,7 +66,7 @@ public class DialogManager : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (isDialogActive && Input.GetKeyDown(KeyCode.Space))
         {
             DisplayNextSetences();
         }
@@ -95,12 +96,14 @@ public class DialogManager : MonoBehaviour
     {
         anim.SetBool("IsOpen", false);
         Move.muv = true;
+        isDialogActive = false;
     }
 
     public void EndDialog()
     {
         anim.SetBool("IsOpen", false);
         Move.muv = true;
+        isDialogActive = false;
     }
 }
 

@@ -49,9 +49,7 @@ public class ElevatorButton : MonoBehaviour
             Move.muv = false;
             _audioSource.PlayOneShot(_playSaund, 0.5f);
             _audioSource.PlayOneShot(_playSaund2, 1f);
-            Button.GetComponent<Collider2D>().enabled = false; // Для 2D-игры
-            
-            anima.SetTrigger("ElevatorButton");
+            Button.GetComponent<Collider2D>().enabled = false; 
             Invoke("spawnObj", time);
             anima2.SetBool("isOpen", false);
         }

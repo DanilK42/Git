@@ -17,7 +17,7 @@ public class Button_Setting : MonoBehaviour
     public GameObject TenLeval;
     [SerializeField] private AudioClip _playSaund1;
     private AudioSource _audioSource;
-
+    public Animator e;
     void Start()
     {
         spriteRenderer = GetComponent<SpriteRenderer>(); // Получаем компонент
@@ -36,6 +36,7 @@ public class Button_Setting : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
+            e.SetBool("isOpen", true);
             isPlayerInTrigger = true;
             SetTransparency(1f);
         }
@@ -45,6 +46,7 @@ public class Button_Setting : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
+            e.SetBool("isOpen", false);
             isPlayerInTrigger = false;
             SetTransparency(0.5f);
         }
