@@ -46,6 +46,7 @@ public class ElevatorButton : MonoBehaviour
 
         if (isPlayerInTrigger && Input.GetKeyDown(KeyCode.E))
         {
+            anima.SetTrigger("ElevatorButton");
             Move.muv = false;
             _audioSource.PlayOneShot(_playSaund, 0.5f);
             _audioSource.PlayOneShot(_playSaund2, 1f);
