@@ -12,11 +12,15 @@ public class CodeManager : MonoBehaviour
     public GameObject PincodeChek2;
     public Animator anima;
     public bool check = false;
+    public GameObject gren;
+    public GameObject gren1;
 
     private void Start()
     {
         ElevatorChek.SetActive(false);
         ElevatorChek2.SetActive(false);
+        gren.SetActive(false);
+        gren1.SetActive(false);
     }
 
 
@@ -82,6 +86,7 @@ public class CodeManager : MonoBehaviour
             anima.SetBool("IsOpean", false);
             PincodeChek.SetActive (false);
             check = true;
+            gren.SetActive(true);
         }
         else if (code == "1482")
         {
@@ -90,6 +95,7 @@ public class CodeManager : MonoBehaviour
             anima.SetBool("IsOpean", false);
             PincodeChek2.SetActive(false);
             check = true;
+            gren1.SetActive(true);
         }
         else
         {
