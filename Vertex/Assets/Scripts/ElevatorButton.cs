@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ElevatorButton : MonoBehaviour
 {
@@ -15,13 +16,16 @@ public class ElevatorButton : MonoBehaviour
     [SerializeField] private AudioClip _playSaund3;
     private AudioSource _audioSource;
 
-
+    public Image fillImage; // Ссылка на UI Image
+    private float targetFill = 0f; // Целевой уровень шкалы
+    public float fillSpeed = 0.02f; // Скорость заполнения
 
     private void Awake()
     {
         Box.SetActive(false);
         Button.SetActive(true);
         _audioSource = GetComponent<AudioSource>();
+        fillImage.fillAmount = 0f;
     }
     void OnTriggerEnter2D(Collider2D other)
     {
@@ -43,6 +47,12 @@ public class ElevatorButton : MonoBehaviour
 
     void Update()
     {
+        // Плавно увеличиваем значение fillAmount к targetFill
+        if (fillImage.fillAmount < targetFill)
+        {
+            fillImage.fillAmount += fillSpeed * Time.deltaTime;
+            fillImage.fillAmount = Mathf.Min(fillImage.fillAmount, targetFill);
+        }
 
         if (isPlayerInTrigger && Input.GetKeyDown(KeyCode.E))
         {
@@ -53,6 +63,7 @@ public class ElevatorButton : MonoBehaviour
             Button.GetComponent<Collider2D>().enabled = false; 
             Invoke("spawnObj", time);
             anima2.SetBool("isOpen", false);
+            IncreaseProgress();
         }
     }
 
@@ -61,5 +72,9 @@ public class ElevatorButton : MonoBehaviour
         _audioSource.PlayOneShot(_playSaund3, 1f);
         Move.muv = true;
         Box.SetActive(true);
+    }
+    public void IncreaseProgress()
+    {
+        targetFill = Mathf.Clamp01(fillImage.fillAmount + 0.1f);
     }
 }

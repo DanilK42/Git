@@ -3,24 +3,32 @@
   "WorkspaceRootPath": "E:\\Copy\\sdfsdf\\Vertex\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6BF8B4CF-D90B-2C86-1131-AE9921033F0B}|Assembly-CSharp.csproj|e:\\copy\\sdfsdf\\vertex\\assets\\scripts\\minigame4\\codemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6BF8B4CF-D90B-2C86-1131-AE9921033F0B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\minigame4\\codemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6BF8B4CF-D90B-2C86-1131-AE9921033F0B}|Assembly-CSharp.csproj|E:\\Copy\\sdfsdf\\Vertex\\assets\\scripts\\doska.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BF8B4CF-D90B-2C86-1131-AE9921033F0B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\doska.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6BF8B4CF-D90B-2C86-1131-AE9921033F0B}|Assembly-CSharp.csproj|e:\\copy\\sdfsdf\\vertex\\assets\\scripts\\enablebutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6BF8B4CF-D90B-2C86-1131-AE9921033F0B}|Assembly-CSharp.csproj|E:\\Copy\\sdfsdf\\Vertex\\assets\\scripts\\enablebutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6BF8B4CF-D90B-2C86-1131-AE9921033F0B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enablebutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6BF8B4CF-D90B-2C86-1131-AE9921033F0B}|Assembly-CSharp.csproj|E:\\Copy\\sdfsdf\\Vertex\\assets\\scripts\\elevatorbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6BF8B4CF-D90B-2C86-1131-AE9921033F0B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\elevatorbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6BF8B4CF-D90B-2C86-1131-AE9921033F0B}|Assembly-CSharp.csproj|E:\\Copy\\sdfsdf\\Vertex\\assets\\scripts\\dialog\\dialogmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6BF8B4CF-D90B-2C86-1131-AE9921033F0B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dialog\\dialogmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{6BF8B4CF-D90B-2C86-1131-AE9921033F0B}|Assembly-CSharp.csproj|E:\\Copy\\sdfsdf\\Vertex\\assets\\scripts\\elevatorbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BF8B4CF-D90B-2C86-1131-AE9921033F0B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\elevatorbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BF8B4CF-D90B-2C86-1131-AE9921033F0B}|Assembly-CSharp.csproj|e:\\copy\\sdfsdf\\vertex\\assets\\scripts\\play.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BF8B4CF-D90B-2C86-1131-AE9921033F0B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\play.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6BF8B4CF-D90B-2C86-1131-AE9921033F0B}|Assembly-CSharp.csproj|E:\\Copy\\sdfsdf\\Vertex\\assets\\scripts\\button_play.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6BF8B4CF-D90B-2C86-1131-AE9921033F0B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\button_play.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BF8B4CF-D90B-2C86-1131-AE9921033F0B}|Assembly-CSharp.csproj|E:\\Copy\\sdfsdf\\Vertex\\assets\\scripts\\minigame4\\codemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BF8B4CF-D90B-2C86-1131-AE9921033F0B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\minigame4\\codemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6BF8B4CF-D90B-2C86-1131-AE9921033F0B}|Assembly-CSharp.csproj|E:\\Copy\\sdfsdf\\Vertex\\assets\\scripts\\move.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -29,10 +37,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{6BF8B4CF-D90B-2C86-1131-AE9921033F0B}|Assembly-CSharp.csproj|E:\\Copy\\sdfsdf\\Vertex\\assets\\scripts\\lift.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6BF8B4CF-D90B-2C86-1131-AE9921033F0B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\lift.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6BF8B4CF-D90B-2C86-1131-AE9921033F0B}|Assembly-CSharp.csproj|E:\\Copy\\sdfsdf\\Vertex\\assets\\scripts\\play.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6BF8B4CF-D90B-2C86-1131-AE9921033F0B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\play.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6BF8B4CF-D90B-2C86-1131-AE9921033F0B}|Assembly-CSharp.csproj|E:\\Copy\\sdfsdf\\Vertex\\assets\\scripts\\button_setting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -123,10 +127,6 @@
       "RelativeMoniker": "D:0:0:{6BF8B4CF-D90B-2C86-1131-AE9921033F0B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\timer\\savelevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6BF8B4CF-D90B-2C86-1131-AE9921033F0B}|Assembly-CSharp.csproj|E:\\Copy\\sdfsdf\\Vertex\\assets\\scripts\\doska.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6BF8B4CF-D90B-2C86-1131-AE9921033F0B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\doska.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6BF8B4CF-D90B-2C86-1131-AE9921033F0B}|Assembly-CSharp.csproj|E:\\Copy\\sdfsdf\\Vertex\\assets\\scripts\\minigame3\\gamestart12.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6BF8B4CF-D90B-2C86-1131-AE9921033F0B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\minigame3\\gamestart12.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -142,97 +142,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Button_Play.cs",
               "DocumentMoniker": "E:\\Copy\\sdfsdf\\Vertex\\Assets\\Scripts\\Button_Play.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Button_Play.cs",
               "ToolTip": "E:\\Copy\\sdfsdf\\Vertex\\Assets\\Scripts\\Button_Play.cs",
               "RelativeToolTip": "Assets\\Scripts\\Button_Play.cs",
-              "ViewState": "AQIAAC0AAAAAAAAAAAAAAEgAAAAFAAAA",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAAFAAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-20T18:54:21.303Z",
               "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CodeManager.cs",
-              "DocumentMoniker": "E:\\Copy\\sdfsdf\\Vertex\\Assets\\Scripts\\MiniGame4\\CodeManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\MiniGame4\\CodeManager.cs",
-              "ToolTip": "E:\\Copy\\sdfsdf\\Vertex\\Assets\\Scripts\\MiniGame4\\CodeManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\MiniGame4\\CodeManager.cs",
-              "ViewState": "AQIAAEIAAAAAAAAAAAAAAGEAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-26T09:34:52.005Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ElevatorButton.cs",
-              "DocumentMoniker": "E:\\Copy\\sdfsdf\\Vertex\\Assets\\Scripts\\ElevatorButton.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\ElevatorButton.cs",
-              "ToolTip": "E:\\Copy\\sdfsdf\\Vertex\\Assets\\Scripts\\ElevatorButton.cs",
-              "RelativeToolTip": "Assets\\Scripts\\ElevatorButton.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAAADoAAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-21T18:21:04.809Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Move.cs",
-              "DocumentMoniker": "E:\\Copy\\sdfsdf\\Vertex\\Assets\\Scripts\\Move.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Move.cs",
-              "ToolTip": "E:\\Copy\\sdfsdf\\Vertex\\Assets\\Scripts\\Move.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Move.cs",
-              "ViewState": "AQIAACoAAAAAAAAAAAAAAFAAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-21T18:06:43.442Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "Musor.cs",
-              "DocumentMoniker": "E:\\Copy\\sdfsdf\\Vertex\\Assets\\Scripts\\Musor.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Musor.cs",
-              "ToolTip": "E:\\Copy\\sdfsdf\\Vertex\\Assets\\Scripts\\Musor.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Musor.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-20T08:56:18.177Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Lift.cs",
-              "DocumentMoniker": "E:\\Copy\\sdfsdf\\Vertex\\Assets\\Scripts\\Lift.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Lift.cs",
-              "ToolTip": "E:\\Copy\\sdfsdf\\Vertex\\Assets\\Scripts\\Lift.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Lift.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAACEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-20T18:54:23.284Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "GameStart.cs",
-              "DocumentMoniker": "E:\\Copy\\sdfsdf\\Vertex\\Assets\\Scripts\\MiniGame2\\GameStart.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\MiniGame2\\GameStart.cs",
-              "ToolTip": "E:\\Copy\\sdfsdf\\Vertex\\Assets\\Scripts\\MiniGame2\\GameStart.cs",
-              "RelativeToolTip": "Assets\\Scripts\\MiniGame2\\GameStart.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-14T22:07:01.756Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "MoveHead.cs",
               "DocumentMoniker": "E:\\Copy\\sdfsdf\\Vertex\\Assets\\Scripts\\MiniGame6\\MoveHead.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MiniGame6\\MoveHead.cs",
@@ -244,7 +171,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "MovengPuzzle.cs",
               "DocumentMoniker": "E:\\Copy\\sdfsdf\\Vertex\\Assets\\Scripts\\MiniGame4\\MovengPuzzle.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MiniGame4\\MovengPuzzle.cs",
@@ -256,7 +183,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "FollingObjeckt.cs",
               "DocumentMoniker": "E:\\Copy\\sdfsdf\\Vertex\\Assets\\Scripts\\MiniGame7\\FollingObjeckt.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MiniGame7\\FollingObjeckt.cs",
@@ -268,7 +195,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "BasketController.cs",
               "DocumentMoniker": "E:\\Copy\\sdfsdf\\Vertex\\Assets\\Scripts\\MiniGame7\\BasketController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MiniGame7\\BasketController.cs",
@@ -280,7 +207,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "AppleCollision.cs",
               "DocumentMoniker": "E:\\Copy\\sdfsdf\\Vertex\\Assets\\Scripts\\MiniGame7\\AppleCollision.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MiniGame7\\AppleCollision.cs",
@@ -292,15 +219,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "DialogManager.cs",
               "DocumentMoniker": "E:\\Copy\\sdfsdf\\Vertex\\Assets\\Scripts\\Dialog\\DialogManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Dialog\\DialogManager.cs",
               "ToolTip": "E:\\Copy\\sdfsdf\\Vertex\\Assets\\Scripts\\Dialog\\DialogManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\Dialog\\DialogManager.cs",
-              "ViewState": "AQIAAEsAAAAAAAAAAAAqwGkAAAAfAAAA",
+              "ViewState": "AQIAACkAAAAAAAAAAAAmwEYAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-21T19:12:34.975Z"
+              "WhenOpened": "2025-02-21T19:12:34.975Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -310,14 +238,14 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\EnableButton.cs",
               "ToolTip": "E:\\Copy\\sdfsdf\\Vertex\\Assets\\Scripts\\EnableButton.cs",
               "RelativeToolTip": "Assets\\Scripts\\EnableButton.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAcwFcAAAAFAAAA",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAAAkAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-21T21:21:09.949Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "StartGame7.cs",
               "DocumentMoniker": "E:\\Copy\\sdfsdf\\Vertex\\Assets\\Scripts\\MiniGame7\\StartGame7.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MiniGame7\\StartGame7.cs",
@@ -329,7 +257,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "ScoreManager.cs",
               "DocumentMoniker": "E:\\Copy\\sdfsdf\\Vertex\\Assets\\Scripts\\MiniGame7\\ScoreManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MiniGame7\\ScoreManager.cs",
@@ -341,7 +269,82 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Play.cs",
+              "DocumentMoniker": "E:\\Copy\\sdfsdf\\Vertex\\Assets\\Scripts\\Play.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Play.cs",
+              "ToolTip": "E:\\Copy\\sdfsdf\\Vertex\\Assets\\Scripts\\Play.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Play.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACQAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T21:05:54.219Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ElevatorButton.cs",
+              "DocumentMoniker": "E:\\Copy\\sdfsdf\\Vertex\\Assets\\Scripts\\ElevatorButton.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ElevatorButton.cs",
+              "ToolTip": "E:\\Copy\\sdfsdf\\Vertex\\Assets\\Scripts\\ElevatorButton.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ElevatorButton.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABQAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T18:21:04.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Doska.cs",
+              "DocumentMoniker": "E:\\Copy\\sdfsdf\\Vertex\\Assets\\Scripts\\Doska.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Doska.cs",
+              "ToolTip": "E:\\Copy\\sdfsdf\\Vertex\\Assets\\Scripts\\Doska.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Doska.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAAEAAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T00:46:03.462Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "GameStart.cs",
+              "DocumentMoniker": "E:\\Copy\\sdfsdf\\Vertex\\Assets\\Scripts\\MiniGame2\\GameStart.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MiniGame2\\GameStart.cs",
+              "ToolTip": "E:\\Copy\\sdfsdf\\Vertex\\Assets\\Scripts\\MiniGame2\\GameStart.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MiniGame2\\GameStart.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T22:07:01.756Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "Lift.cs",
+              "DocumentMoniker": "E:\\Copy\\sdfsdf\\Vertex\\Assets\\Scripts\\Lift.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Lift.cs",
+              "ToolTip": "E:\\Copy\\sdfsdf\\Vertex\\Assets\\Scripts\\Lift.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Lift.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T18:54:23.284Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Musor.cs",
+              "DocumentMoniker": "E:\\Copy\\sdfsdf\\Vertex\\Assets\\Scripts\\Musor.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Musor.cs",
+              "ToolTip": "E:\\Copy\\sdfsdf\\Vertex\\Assets\\Scripts\\Musor.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Musor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T08:56:18.177Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "Button_Setting.cs",
               "DocumentMoniker": "E:\\Copy\\sdfsdf\\Vertex\\Assets\\Scripts\\Button_Setting.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Button_Setting.cs",
@@ -354,18 +357,30 @@
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "Play.cs",
-              "DocumentMoniker": "E:\\Copy\\sdfsdf\\Vertex\\Assets\\Scripts\\Play.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Play.cs",
-              "ToolTip": "E:\\Copy\\sdfsdf\\Vertex\\Assets\\Scripts\\Play.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Play.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAAZAAAA",
+              "Title": "Move.cs",
+              "DocumentMoniker": "E:\\Copy\\sdfsdf\\Vertex\\Assets\\Scripts\\Move.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Move.cs",
+              "ToolTip": "E:\\Copy\\sdfsdf\\Vertex\\Assets\\Scripts\\Move.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Move.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAAFAAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-21T21:05:54.219Z"
+              "WhenOpened": "2025-02-21T18:06:43.442Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 6,
+              "Title": "CodeManager.cs",
+              "DocumentMoniker": "E:\\Copy\\sdfsdf\\Vertex\\Assets\\Scripts\\MiniGame4\\CodeManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MiniGame4\\CodeManager.cs",
+              "ToolTip": "E:\\Copy\\sdfsdf\\Vertex\\Assets\\Scripts\\MiniGame4\\CodeManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MiniGame4\\CodeManager.cs",
+              "ViewState": "AQIAAEAAAAAAAAAAAABBwGEAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T09:34:52.005Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "Button_Exit.cs",
               "DocumentMoniker": "E:\\Copy\\sdfsdf\\Vertex\\Assets\\Scripts\\Button_Exit.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Button_Exit.cs",
@@ -377,7 +392,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "RandomRotate.cs",
               "DocumentMoniker": "E:\\Copy\\sdfsdf\\Vertex\\Assets\\Scripts\\MiniGame1\\RandomRotate.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MiniGame1\\RandomRotate.cs",
@@ -389,7 +404,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "MoveP.cs",
               "DocumentMoniker": "E:\\Copy\\sdfsdf\\Vertex\\Assets\\Scripts\\MiniGame2\\MoveP.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MiniGame2\\MoveP.cs",
@@ -401,7 +416,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "NPCMove.cs",
               "DocumentMoniker": "E:\\Copy\\sdfsdf\\Vertex\\Assets\\Scripts\\NPC\\NPCMove.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\NPC\\NPCMove.cs",
@@ -425,7 +440,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "RandomAnim.cs",
               "DocumentMoniker": "E:\\Copy\\sdfsdf\\Vertex\\Assets\\Scripts\\RandomAnim.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\RandomAnim.cs",
@@ -436,7 +451,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "SaveLevel.cs",
               "DocumentMoniker": "E:\\Copy\\sdfsdf\\Vertex\\Assets\\Scripts\\Timer\\SaveLevel.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Timer\\SaveLevel.cs",
@@ -448,7 +463,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "StartMiniGame.cs",
               "DocumentMoniker": "E:\\Copy\\sdfsdf\\Vertex\\Assets\\Scripts\\StartMiniGame.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\StartMiniGame.cs",
@@ -460,7 +475,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "TimerCheck.cs",
               "DocumentMoniker": "E:\\Copy\\sdfsdf\\Vertex\\Assets\\Scripts\\Timer\\TimerCheck.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Timer\\TimerCheck.cs",
@@ -472,19 +487,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "Doska.cs",
-              "DocumentMoniker": "E:\\Copy\\sdfsdf\\Vertex\\Assets\\Scripts\\Doska.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Doska.cs",
-              "ToolTip": "E:\\Copy\\sdfsdf\\Vertex\\Assets\\Scripts\\Doska.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Doska.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-19T00:46:03.462Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "StartGame6.cs",
               "DocumentMoniker": "E:\\Copy\\sdfsdf\\Vertex\\Assets\\Scripts\\MiniGame6\\StartGame6.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MiniGame6\\StartGame6.cs",
@@ -496,7 +499,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "StartGame5.cs",
               "DocumentMoniker": "E:\\Copy\\sdfsdf\\Vertex\\Assets\\Scripts\\MiniGame5\\StartGame5.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MiniGame5\\StartGame5.cs",
@@ -508,7 +511,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "StartGame4.cs",
               "DocumentMoniker": "E:\\Copy\\sdfsdf\\Vertex\\Assets\\Scripts\\MiniGame4\\StartGame4.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MiniGame4\\StartGame4.cs",
@@ -532,7 +535,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "OpeanPincode.cs",
               "DocumentMoniker": "E:\\Copy\\sdfsdf\\Vertex\\Assets\\Scripts\\MiniGame4\\OpeanPincode.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MiniGame4\\OpeanPincode.cs",

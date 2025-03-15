@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: BobrTeam
-  productName: Vertex
+  productName: "\u0412\u0435\u0440\u0448\u0438\u043D\u0430"
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0, g: 0, b: 0, a: 1}
@@ -40,7 +40,7 @@ PlayerSettings:
     width: 1
     height: 1
   m_SplashScreenLogos:
-  - logo: {fileID: -1042184463, guid: 8bebaa63bf9f7c74e82e69c7ac98732c, type: 3}
+  - logo: {fileID: 498925529, guid: 3f6f9342c622bad44bf60897c4819f6c, type: 3}
     duration: 4
   m_VirtualRealitySplashScreen: {fileID: 0}
   m_HolographicTrackingLossScreen: {fileID: 0}

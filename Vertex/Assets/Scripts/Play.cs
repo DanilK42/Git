@@ -7,9 +7,11 @@ public class Play : MonoBehaviour
     [SerializeField] private AudioClip _playSaund1;
     private AudioSource _audioSource;
     private bool isPlayerInTrigger;
+    
     void Start()
     {
         _audioSource = GetComponent<AudioSource>();
+        
     }
 
     void OnTriggerEnter2D(Collider2D other)
@@ -32,6 +34,7 @@ public class Play : MonoBehaviour
         if (isPlayerInTrigger && Input.GetKeyDown(KeyCode.E))
         {
             _audioSource.PlayOneShot(_playSaund1, 1f);
+            
 
         }
     }

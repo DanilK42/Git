@@ -13,12 +13,14 @@ public class Doska : MonoBehaviour
     public Animator e;
     private EnableButton enableButton;
     public Image Button;
+    public Text text;
 
     private void Awake()
     {
         image.SetActive(true);
         button.gameObject.SetActive(false);
         enableButton = GetComponent<EnableButton>();
+        text.gameObject.SetActive(false);
     }
 
     void OnTriggerEnter2D(Collider2D other)
@@ -50,6 +52,7 @@ public class Doska : MonoBehaviour
             BlackScren.SetTrigger("BlackWind");
             Invoke("IsOpen", 1.3f);
             e.SetBool("isOpen", false);
+            
 
         }
     }
@@ -59,5 +62,6 @@ public class Doska : MonoBehaviour
         DoskaAnim.SetBool("IsOpen", true);
         button.gameObject.SetActive(true);
         Button.gameObject.SetActive(false);
+        text.gameObject.SetActive(true);
     }
 }

@@ -21,12 +21,13 @@ public class Button_Play : MonoBehaviour
     //private AudioSource _audioSource;
     //_audioSource = GetComponent<AudioSource>();
     //   _audioSource.PlayOneShot(_playSaund1, 1f);
+    public GameObject gameObject2;
 
     void Start()
     {
         spriteRenderer = GetComponent<SpriteRenderer>(); // Получаем компонент
         _audioSource = GetComponent<AudioSource>();
-
+        gameObject2.SetActive(false);
     }
 
     public void SetTransparency(float alpha)
@@ -77,6 +78,7 @@ public class Button_Play : MonoBehaviour
         player.transform.position = GamePlayer.position;
         Move.muv = true;
         Button.gameObject.SetActive(true);
+        gameObject2.SetActive(true);
 
     }
     IEnumerator FadeInMusic(float duration)
